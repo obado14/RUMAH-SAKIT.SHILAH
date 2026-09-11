@@ -1,0 +1,457 @@
+{
+  "title": "Johns Hopkins Medicine",
+  "navLinks": [
+    {
+      "text": "Skip to Main Content",
+      "href": "https://www.hopkinsmedicine.org/#skip",
+      "className": ""
+    },
+    {
+      "text": "",
+      "href": "https://www.hopkinsmedicine.org/",
+      "className": "logo"
+    },
+    {
+      "text": "Health",
+      "href": "https://www.hopkinsmedicine.org/health",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "School of Medicine",
+      "href": "https://www.hopkinsmedicine.org/som",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "Johns Hopkins Medicine Home",
+      "href": "https://www.hopkinsmedicine.org/",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "About",
+      "href": "https://www.hopkinsmedicine.org/about",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "Patient Care",
+      "href": "https://www.hopkinsmedicine.org/patient-care",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "Research",
+      "href": "https://www.hopkinsmedicine.org/research",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "MyChart",
+      "href": "https://www.hopkinsmedicine.org/patient-care/mychart",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "Schedule an Appointment",
+      "href": "https://www.hopkinsmedicine.org/patient-care/johns-hopkins-medicine-request-appointment",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "Find a Doctor",
+      "href": "https://www.hopkinsmedicine.org/profiles",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "Find a Clinical Trial",
+      "href": "https://www.hopkinsmedicine.org/clinical-trials",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "Pay Your Bill",
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/billing-insurance/pay-bill",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "Employment",
+      "href": "https://www.hopkinsmedicine.org/employment",
+      "className": "menu-list-link"
+    },
+    {
+      "text": "MyChart Login\n\t\t\t\t\t\t\tMyChart",
+      "href": "https://www.hopkinsmedicine.org/patient-care/mychart",
+      "className": "mychart-login"
+    }
+  ],
+  "allH2": [
+    {
+      "text": "Payments and Billing Assistance",
+      "style": {
+        "fontFamily": "\"Noto Serif\", serif",
+        "fontSize": "37.008px",
+        "fontWeight": "400",
+        "lineHeight": "51.8112px",
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px 0px 24px",
+        "border": "0px none rgb(51, 51, 51)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    },
+    {
+      "text": "Important Information for Patients with UnitedHealthcare",
+      "style": {
+        "fontFamily": "\"Noto Serif\", serif",
+        "fontSize": "37.008px",
+        "fontWeight": "400",
+        "lineHeight": "51.8112px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px 0px 20px",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    },
+    {
+      "text": "Research Saves Lives",
+      "style": {
+        "fontFamily": "\"Noto Serif\", serif",
+        "fontSize": "37.008px",
+        "fontWeight": "400",
+        "lineHeight": "51.8112px",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px 0px 20px",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    },
+    {
+      "text": "News and Features",
+      "style": {
+        "fontFamily": "\"Noto Serif\", serif",
+        "fontSize": "37.008px",
+        "fontWeight": "400",
+        "lineHeight": "51.8112px",
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px 0px 24px",
+        "border": "0px none rgb(51, 51, 51)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    },
+    {
+      "text": "",
+      "style": {
+        "fontFamily": "\"Noto Serif\", serif",
+        "fontSize": "31.9859px",
+        "fontWeight": "400",
+        "lineHeight": "44.7803px",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px 0px 24px",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    },
+    {
+      "text": "Cookie Preferences",
+      "style": {
+        "fontFamily": "\"Noto Sans\", sans-serif",
+        "fontSize": "19.2px",
+        "fontWeight": "600",
+        "lineHeight": "24.96px",
+        "color": "rgb(0, 44, 119)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px 0px 10px 8px",
+        "border": "0px none rgb(0, 44, 119)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    },
+    {
+      "text": "Cookie Preference Center",
+      "style": {
+        "fontFamily": "\"Noto Sans\", sans-serif",
+        "fontSize": "21.92px",
+        "fontWeight": "600",
+        "lineHeight": "26.304px",
+        "color": "rgb(28, 28, 28)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "16px 0px",
+        "margin": "0px",
+        "border": "0px none rgb(28, 28, 28)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    },
+    {
+      "text": "Cookie Preference Center",
+      "style": {
+        "fontFamily": "\"Noto Sans\", sans-serif",
+        "fontSize": "24px",
+        "fontWeight": "600",
+        "lineHeight": "30px",
+        "color": "rgb(28, 28, 28)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(28, 28, 28)",
+        "borderRadius": "0px",
+        "boxShadow": "none"
+      }
+    }
+  ],
+  "allImages": [
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/images/hopkins-medicine-logo-white-header.svg?iar=0&hash=C6173D209DB591FDF4EFE00B18C2FFE4",
+      "alt": "Johns Hopkins Medicine",
+      "width": 300,
+      "height": 59,
+      "className": "logo-svg"
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/icons-png---shared/stethoscope-blue.png",
+      "alt": "Illustration of a stethoscope.",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/icons-png---shared/location-blue.png",
+      "alt": "",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/icons-png---shared/appointment-blue.png",
+      "alt": "",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/icons-png---shared/mychart-blue.png",
+      "alt": "blue mychart icon",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/johns-hopkins-childrens-center/images/usnwr/25-26/peds-usnews-25-26-640-336-3.jpg",
+      "alt": "",
+      "width": 2667,
+      "height": 1400,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/usnews/images/26-27/us-news-hospital.jpg",
+      "alt": "The Johns Hopkins Hospital Top Ranked in the Nation",
+      "width": 650,
+      "height": 341,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/plastic-reconstructive-surgery/byoung-chol-oh-and-gerald-brandacher/rsl-ai/searson-team-copy/audrey_smith-copy/dannals_pomper.jpg",
+      "alt": "Robert Dannals, Martin Pomper",
+      "width": 900,
+      "height": 600,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/plastic-reconstructive-surgery/byoung-chol-oh-and-gerald-brandacher/rsl-ai/searson-team-copy/audrey_smith-copy.jpg",
+      "alt": "Audrey Smith",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/homepage/rsl-640.jpg",
+      "alt": "Research saves lives logo",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/homepage/ocd-children.jpg",
+      "alt": "Young girl reads her phone anxiously, her hand to her forehead",
+      "width": 760,
+      "height": 760,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/homepage/microgrippers-illustration.jpg",
+      "alt": "Illustrated therapeutic grippers with six prongs, racing through a blood vessel",
+      "width": 760,
+      "height": 760,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/homepage/digital-twin-heart.jpg",
+      "alt": "Model heart with a digital sketch double",
+      "width": 650,
+      "height": 650,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/medicine/images/som-logo.png?h=440&iar=0&w=640&hash=D029E5EBFBC931F4426EAFA54A5FE1D6",
+      "alt": "School of Medicine logo",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/homepage/researcher-in-lab.jpg?h=366&iar=0&w=650&hash=9D6F5BA6E2EC494762907F8B9CCE50B1",
+      "alt": "",
+      "width": 650,
+      "height": 366,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/images/hopkins-nav-logo.svg",
+      "alt": "Johns Hopkins Medicine",
+      "width": 300,
+      "height": 63,
+      "className": "jhmLogo-custom"
+    },
+    {
+      "src": "https://cdn.cookielaw.org/logos/84762cb6-dc64-40f6-82cc-628fc29499e6/018ef1eb-4dc0-709f-ba41-901cf2971286/4d64719a-0ecd-4744-aba8-2d8081756f1d/logo192.png",
+      "alt": "Johns Hopkins Medicine Logo",
+      "width": 192,
+      "height": 193,
+      "className": "ot-bnr-logo"
+    },
+    {
+      "src": "https://cdn.cookielaw.org/logos/static/ot_company_logo.png",
+      "alt": "Company Logo",
+      "width": 2042,
+      "height": 280,
+      "className": ""
+    },
+    {
+      "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+      "alt": "Powered by Onetrust",
+      "width": 568,
+      "height": 53,
+      "className": ""
+    }
+  ],
+  "allSvgs": [
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+      "className": null,
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "outerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path class=\"ot-floating-button__svg-fill\" d=\"M14.588 0l.445.328c1.807 1.303 3.961 2.533 6.461 3.688 2.015.93 4.576 1.746 7.682 2.446 0 14.178-4.73 24.133-14.19 29.864l-.398.236C4.863 30.87 0 20.837 0 6.462c3.107-.7 5.668-1.516 7.682-2.446 2.709-1.251 5.01-2.59 6.906-4.016zm5.87 13.88a.75.75 0 00-.974.159l-5.475 6.625-3.005-2.997-.077-.067a.75.75 0 00-.983 1.13l4.172 4.16 6.525-7.895.06-.083a.75.75 0 00-.16-.973z\" fill=\"#FFF\" fill-rule=\"evenodd\"></path></svg>",
+      "className": null,
+      "viewBox": null
+    },
+    {
+      "outerHTML": "<svg id=\"ot-back-arw\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 444.531 444.531\" xml:space=\"preserve\"><title>Back Button</title><g><path fill=\"#656565\" d=\"M213.13,222.409L351.88,83.653c7.05-7.043,10.567-15.657,10.567-25.841c0-10.183-3.518-18.793-10.567-25.835\n                  l-21.409-21.416C323.432,3.521,314.817,0,304.637,0s-18.791,3.521-25.841,10.561L92.649,196.425\n                  c-7.044,7.043-10.566,15.656-10.566,25.841s3.521,18.791,10.566,25.837l186.146,185.864c7.05,7.043,15.66,10.564,25.841,10.564\n                  s18.795-3.521,25.834-10.564l21.409-21.412c7.05-7.039,10.567-15.604,10.567-25.697c0-10.085-3.518-18.746-10.567-25.978\n                  L213.13,222.409z\"></path></g></svg>",
+      "className": null,
+      "viewBox": "0 0 444.531 444.531"
+    },
+    {
+      "outerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 -30 110 110\" aria-hidden=\"true\"><path fill=\"#2e3644\" d=\"M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23\n              s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92\n              c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17\n              s-17-7.626-17-17S14.61,6,23.984,6z\"></path></svg>",
+      "className": null,
+      "viewBox": "0 -30 110 110"
+    },
+    {
+      "outerHTML": "<svg role=\"presentation\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 402.577 402.577\" xml:space=\"preserve\"><title>Filter Button</title><g><path fill=\"#2c3643\" d=\"M400.858,11.427c-3.241-7.421-8.85-11.132-16.854-11.136H18.564c-7.993,0-13.61,3.715-16.846,11.136\n                            c-3.234,7.801-1.903,14.467,3.999,19.985l140.757,140.753v138.755c0,4.955,1.809,9.232,5.424,12.854l73.085,73.083\n                            c3.429,3.614,7.71,5.428,12.851,5.428c2.282,0,4.66-0.479,7.135-1.43c7.426-3.238,11.14-8.851,11.14-16.845V172.166L396.861,31.413\n                            C402.765,25.895,404.093,19.231,400.858,11.427z\"></path></g></svg>",
+      "className": null,
+      "viewBox": "0 0 402.577 402.577"
+    }
+  ],
+  "bgImages": [
+    {
+      "url": "https://www.hopkinsmedicine.org/-/media/images/option3.jpg",
+      "tagName": "DIV",
+      "className": "hero-banner-module"
+    },
+    {
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABACAMAAAC6GQAEAAAAhFBMVEUAAABtpsZupchvpsdupsZupsZtpsZtpcZupcZyq8dupsaGu9dupsZtp8Vwqch2rtFvp8dyqst4tc9upcZvp8dwqMlupsdtpsZtpsZupcZupsZupsZzqcpupsZtpcZtpsZtpsZtpsZupsZvqcdwqclvp8hupsZup8dwpsZtpsZupsZtpcVWcOumAAAAK3RSTlMAuDN6+nHL3Gcf7gXRhC8NQhgK9VAjW+Km8caYErSqv5/okDsoSYpjWNaHaSJ57gAAAptJREFUWMPtldmyqjAQRVsJRCQyK4OAOOBw9v//39UQDjJUHauk6r6wn2K7s+gknQ7NmjXrP8krI3S0Lj16UxXzRGjZxzwneiI6AgyLGvklAAZw71OghsOlG7Ej2NRoj+Muc8IFDP9DYIGqHzph1wzPOMrUrEPkfghcYNkPbbBq2Te1dJ8mAabYNsNpgALeBEDP/i2SEuE3wKF2ENakQDrgsCWypgOaAuBG4E0GJGvDARZOB9y61Xn5RxGarjcC1BfqjPftdOd6xEvHq6kiQ99ysX45iksPWIDVoQ1E1iyXI3jkZW4kqG/j0Gf9MDAjFgyB3gFqiGz15RQ51QqR+zU5rNMZ+nIEq1cN+BuG/Rtwi8AmpSzCvQEWnYIZ+m7gzd1cruG2wBN+ZFRxUrWFR6yLld1Ahz4jgft2CSL/F3iESa2i5peXMwAs1eq0hj6UnUvgNkAHnN4Ut9/NdtecAzAkcuDDvdOr9QZo4/BuvKouaFf1BvnuibEVjfg63c1F3GYoXtno+1J7OUqZoS0AJJpVs9fsMuobBxIPiKoAT7Fn2imcVwyPWADCUY+LPuobXzLFCC8JW6x2cYJwK3fKBH8md+aqvHRoo77xQ6EzDF5fBpsFC9mxPTxk5QV15edwx33jZUMnqExoBaRyJUY9cyMXEmLtDH1yMFrY5HCkcrAtkFzlId+AwrWoQknZD0NIA9+F5CjrX73aGQM8LwRDqqml7BiQGAccBZDIUNdnNh1EDJpDPf8QAMzQrN9Xz9QMSPG9bHg9nzItMGxfSpZ99utntA2ZIR6K1vW1ypaV9+m7LMvHoL81A2fgV8B8CLzi9gXwhFs/JHD+AugiOWkdCUT+F0DSGHqKzvQNkMy73lHodP529DvNmjVrWv0Dr25Y7M2klm8AAAAASUVORK5CYII=",
+      "tagName": "SPAN",
+      "className": ""
+    },
+    {
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABgFBMVEUAAABtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcVtpcXuw2LjAAAAf3RSTlMAAQIDBAUGBwgJCgsMDQ4QERITFBYXGBobHR8gIiMkJSYnKCkrMDEzNjk6Oz0+QUNER0pLTE1SVFVWV1lbXF1fY2RnaGlrbW9xc3V3eHt8fn+AgoOGiZKUmJqepaaoqq+0tbe6vL7AwcXHzNHV19na3ODi5Ojp6+3v8fP19/v9PzbrrgAAAZNJREFUGBnVwWlD0gAAx+H/pihoSpFRaaVWVmZZaocEZJd2YFlk94GVGmWHRWE42O+rxzHY5MXgrc+jXWb/6zm1I2rBYbUWtsDuVUtGFkqjipwMyl8MmL1dgK0O+TELULSoCMnPOI5vM/L1lqqVyYGgmpiTY3JZNGTPycO8lIc+1fXjNaTO2Nr2xvvlWzOxPGXLqlvE8c8GhiI5dtqjmn4c63MDkaunAn9oklbNS1yPpCTY8aMP8OhVxUG8nmgKLkpK40qpLLSOI3PjKxBVYlZlI7geS2ayhGNJMlZhou/HZkDSGHWFKWn4Fw17JYWLax134LlkfMKxGJCUwxWWZNyf0Ajw4eYXHBdUMY8rJekZHNdDPDZU1V3C9S75ERiVpvM0nFDNPZq86Ml+v3Z64Sc1K3IEbXa4ayTwiqouBVjXu0ORI2cuJ8aD0qCNa0sNoeJ2slNePVcyv/9uUvVKri5TzYxD8TxV0/LTlcNhB+TnGBVvgKfyZa7yOb4vA1ZQLRkZ4LxaOwssqQ2DkFZbDgxrl/kPDDP7QWnB038AAAAASUVORK5CYII=",
+      "tagName": "SPAN",
+      "className": ""
+    }
+  ],
+  "bodyStyles": {
+    "fontFamily": "\"Noto Sans\", sans-serif",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "color": "rgb(51, 51, 51)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "padding": "0px",
+    "margin": "0px",
+    "border": "0px none rgb(51, 51, 51)",
+    "borderRadius": "0px",
+    "boxShadow": "none"
+  }
+}

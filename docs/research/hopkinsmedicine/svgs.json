@@ -1,0 +1,82 @@
+[
+  {
+    "index": 0,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 1,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 2,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 3,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 4,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 5,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 6,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 7,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 8,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 9,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 10,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 11,
+    "html": "<svg viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path fill=\"currentColor\" d=\"M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "className": {}
+  },
+  {
+    "index": 12,
+    "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path class=\"ot-floating-button__svg-fill\" d=\"M14.588 0l.445.328c1.807 1.303 3.961 2.533 6.461 3.688 2.015.93 4.576 1.746 7.682 2.446 0 14.178-4.73 24.133-14.19 29.864l-.398.236C4.863 30.87 0 20.837 0 6.462c3.107-.7 5.668-1.516 7.682-2.446 2.709-1.251 5.01-2.59 6.906-4.016zm5.87 13.88a.75.75 0 00-.974.159l-5.475 6.625-3.005-2.997-.077-.067a.75.75 0 00-.983 1.13l4.172 4.16 6.525-7.895.06-.083a.75.75 0 00-.16-.973z\" fill=\"#FFF\" fill-rule=\"evenodd\"></path></svg>",
+    "className": {}
+  },
+  {
+    "index": 13,
+    "html": "<svg id=\"ot-back-arw\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 444.531 444.531\" xml:space=\"preserve\"><title>Back Button</title><g><path fill=\"#656565\" d=\"M213.13,222.409L351.88,83.653c7.05-7.043,10.567-15.657,10.567-25.841c0-10.183-3.518-18.793-10.567-25.835\n                  l-21.409-21.416C323.432,3.521,314.817,0,304.637,0s-18.791,3.521-25.841,10.561L92.649,196.425\n                  c-7.044,7.043-10.566,15.656-10.566,25.841s3.521,18.791,10.566,25.837l186.146,185.864c7.05,7.043,15.66,10.564,25.841,10.564\n                  s18.795-3.521,25.834-10.564l21.409-21.412c7.05-7.039,10.567-15.604,10.567-25.697c0-10.085-3.518-18.746-10.567-25.978\n                  L213.13,222.409z\"></path></g></svg>",
+    "className": {}
+  },
+  {
+    "index": 14,
+    "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 -30 110 110\" aria-hidden=\"true\"><path fill=\"#2e3644\" d=\"M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23\n              s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92\n              c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17\n              s-17-7.626-17-17S14.61,6,23.984,6z\"></path></svg>",
+    "className": {}
+  },
+  {
+    "index": 15,
+    "html": "<svg role=\"presentation\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 402.577 402.577\" xml:space=\"preserve\"><title>Filter Button</title><g><path fill=\"#2c3643\" d=\"M400.858,11.427c-3.241-7.421-8.85-11.132-16.854-11.136H18.564c-7.993,0-13.61,3.715-16.846,11.136\n                            c-3.234,7.801-1.903,14.467,3.999,19.985l140.757,140.753v138.755c0,4.955,1.809,9.232,5.424,12.854l73.085,73.083\n                            c3.429,3.614,7.71,5.428,12.851,5.428c2.282,0,4.66-0.479,7.135-1.43c7.426-3.238,11.14-8.851,11.14-16.845V172.166L396.861,31.413\n                            C402.765,25.895,404.093,19.231,400.858,11.427z\"></path></g></svg>",
+    "className": {}
+  }
+]

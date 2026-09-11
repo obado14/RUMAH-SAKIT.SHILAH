@@ -1,0 +1,334 @@
+{
+  "totalLinks": 82,
+  "links": [
+    {
+      "href": "#skip",
+      "text": "Skip to Main Content"
+    },
+    {
+      "href": "/health",
+      "text": "Health"
+    },
+    {
+      "href": "/som",
+      "text": "School of Medicine"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/",
+      "text": "Johns Hopkins Medicine Home"
+    },
+    {
+      "href": "/about",
+      "text": "About"
+    },
+    {
+      "href": "/patient-care",
+      "text": "Patient Care"
+    },
+    {
+      "href": "/research",
+      "text": "Research"
+    },
+    {
+      "href": "/patient-care/mychart",
+      "text": "MyChart"
+    },
+    {
+      "href": "/patient-care/johns-hopkins-medicine-request-appointment",
+      "text": "Schedule an Appointment"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/profiles",
+      "text": "Find a Doctor"
+    },
+    {
+      "href": "/clinical-trials",
+      "text": "Find a Clinical Trial"
+    },
+    {
+      "href": "/patient-care/patients-visitors/billing-insurance/pay-bill",
+      "text": "Pay Your Bill"
+    },
+    {
+      "href": "/employment",
+      "text": "Employment"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/mychart",
+      "text": "MyChart Login MyChart"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/profiles",
+      "text": "Doctors"
+    },
+    {
+      "href": "/patient-care/locations",
+      "text": "Locations"
+    },
+    {
+      "href": "/patient-care/johns-hopkins-medicine-request-appointment",
+      "text": "Appointments"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/mychart/",
+      "text": "MyChart"
+    },
+    {
+      "href": "/patient-care/patients-visitors/billing-insurance/cost-estimates",
+      "text": "Estimate Your Bill"
+    },
+    {
+      "href": "/patient-care/patients-visitors/billing-insurance/pay-bill/charges-fees",
+      "text": "Federal Price Transparency"
+    },
+    {
+      "href": "/patient-care/patients-visitors/billing-insurance/insurance-info",
+      "text": "Insurance Information"
+    },
+    {
+      "href": "/patient-care/patients-visitors/billing-insurance/financial-assistance",
+      "text": "Financial Assistance"
+    },
+    {
+      "href": "/patient-care/patients-visitors/billing-insurance/no-surprises-act",
+      "text": "No Surprises Act"
+    },
+    {
+      "href": "/patient-care/patients-visitors/finding-right-care",
+      "text": "Learn more"
+    },
+    {
+      "href": "/us-news-pediatric",
+      "text": "#1 in Maryland, #1 in Florida"
+    },
+    {
+      "href": "/usnews",
+      "text": "Top Ranked"
+    },
+    {
+      "href": "/united-coverage",
+      "text": "Learn more."
+    },
+    {
+      "href": "https://hub.jhu.edu/2026/06/18/dannals-pomper-bayh-dole-innovator-award/",
+      "text": "Two Johns Hopkins innovators honored for advancing prostate cancer detection"
+    },
+    {
+      "href": "https://hub.jhu.edu/2026/06/17/decades-of-progress-in-sickle-cell-treatment/",
+      "text": "A lifetime of care"
+    },
+    {
+      "href": "https://hub.jhu.edu/research-saves-lives/",
+      "text": "Read more stories"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/obsessive-compulsive-disorder-ocd-in-children",
+      "text": "Obsessive-Compulsive Disorder (OCD) in Children"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/news/articles/2025/05/fantastic-voyagers",
+      "text": "Fantastic Voyagers"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/news/articles/2025/05/a-digital-twin-for-individualized-cardiology",
+      "text": "A Digital 'Twin' for Individualized Cardiology"
+    },
+    {
+      "href": "/news",
+      "text": "See more stories"
+    },
+    {
+      "href": "/news/publications",
+      "text": "Publications"
+    },
+    {
+      "href": "/news/newsroom",
+      "text": "Newsroom"
+    },
+    {
+      "href": "/health",
+      "text": "Health Information"
+    },
+    {
+      "href": "/news/e-newsletters",
+      "text": "E-Newsletters"
+    },
+    {
+      "href": "/som",
+      "text": "About the School of Medicine"
+    },
+    {
+      "href": "/som/education-programs",
+      "text": "Explore programs"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#spanish",
+      "text": "Español"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#amharic",
+      "text": "አማርኛ"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#chinese",
+      "text": "繁體中文"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#french",
+      "text": "Français"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#tagalog",
+      "text": "Tagalog"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#russian",
+      "text": "Русский"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#portugese",
+      "text": "Português"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#italian",
+      "text": "Italiano"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#vietnamese",
+      "text": "Tiếng Việt"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#KruBassa",
+      "text": "Ɓàsɔ́ɔ̀-wùɖù-po-nyɔ̀"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#ibo",
+      "text": "Igbo asusu"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Yoruba",
+      "text": "èdè Yorùbá"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Bengali",
+      "text": "বাংলা"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#japanese",
+      "text": "日本語"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#korean",
+      "text": "한국어"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Creole",
+      "text": "Kreyòl Ayisyen"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Arabic",
+      "text": "العربية"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#German",
+      "text": "Deutsch"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Polish",
+      "text": "Polski"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Greek",
+      "text": "Ελληνικά"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Gujarati",
+      "text": "ગુજરાતી"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Thai",
+      "text": "ภาษาไทย"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Urdu",
+      "text": "اُردُو"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Persian",
+      "text": "فارسی"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Hindi",
+      "text": "हिंदी"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#PennDutch",
+      "text": "Deitsch"
+    },
+    {
+      "href": "https://www.hopkinsmedicine.org/patient-care/patients-visitors/language-assistance-services#Cambodian",
+      "text": "ខ្មែរ"
+    },
+    {
+      "href": "/patient-care/patients-visitors/contact-us",
+      "text": "Contact Johns Hopkins Medicine"
+    },
+    {
+      "href": "/patient-care/patients-visitors/billing-insurance/pay-bill/charges-fees",
+      "text": "Price Transparency"
+    },
+    {
+      "href": "/patient-care/locations",
+      "text": "Patient Care Locations"
+    },
+    {
+      "href": "/patient-privacy-information",
+      "text": "Notice of Privacy Practices"
+    },
+    {
+      "href": "https://it.johnshopkins.edu/policies/privacystatement",
+      "text": "Privacy Statement"
+    },
+    {
+      "href": "/terms-and-conditions-of-use",
+      "text": "Terms &amp; Conditions of Use"
+    },
+    {
+      "href": "/patient-care/patients-visitors/non-discrimination-notice",
+      "text": "Non-Discrimination Notice"
+    },
+    {
+      "href": "https://www.facebook.com/Johns.Hopkins.Medicine",
+      "text": "Follow Johns Hopkins Medicine on Facebook"
+    },
+    {
+      "href": "https://x.com/HopkinsMedicine",
+      "text": "Follow Johns Hopkins Medicine on X"
+    },
+    {
+      "href": "https://www.linkedin.com/company/johns-hopkins-medicine",
+      "text": "Follow Johns Hopkins Medicine on Linkedin"
+    },
+    {
+      "href": "https://www.instagram.com/HopkinsMedicine/",
+      "text": "Follow Johns Hopkins Medicine on Instagram"
+    },
+    {
+      "href": "https://www.youtube.com/user/JohnsHopkinsMedicine?sub_confirmation=1",
+      "text": "Follow Johns Hopkins Medicine on YouTube"
+    },
+    {
+      "href": "https://www.weibo.com/hopkinsmedicine",
+      "text": "Follow Johns Hopkins Medicine on Weibo"
+    },
+    {
+      "href": "https://it.johnshopkins.edu/policies-privacystatement/",
+      "text": "privacy statement."
+    },
+    {
+      "href": "https://it.johnshopkins.edu/policies-privacystatement/",
+      "text": "Privacy Statement"
+    }
+  ],
+  "stylesheets": []
+}

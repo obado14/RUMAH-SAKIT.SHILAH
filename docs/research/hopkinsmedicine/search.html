@@ -1,0 +1,34 @@
+<div class="masthead-ent-search" role="search">
+        <button class="toggle-ent-search search-icon" type="button" aria-expanded="true">
+            <span>Search</span>
+        </button>
+        <div class="ent-search-overlay menu-panel-wrap" id="ent-search">
+            <div class="menu-panel">
+                <div class="menu-panel-content">
+                    <div class="search-bar site-search-container">
+    <form id="jhmSiteSearch" class="search" action="/search" method="get">
+            <div class="search-label ">
+                <label for="header-search" class="h5" id="search-label"><span id="search-text">Search</span> <span class="sr-only">Johns Hopkins Medicine</span></label>
+                <input id="subsiteSearchOptSub2" value="jhm" name="site" type="hidden">
+            </div>
+
+        <div class="search-form">
+            <input type="search" class="ent-header-search search-input ui-autocomplete-input" id="header-search" name="q" placeholder="Search by keyword or a provider's name" value="" autocomplete="off" aria-controls="typeahead-list-0" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-describedby="search-description-0"><span class="sr-only autocomplete-announcement" aria-live="polite" id="autocomplete-live-region-0"></span><span style="display:none;" id="search-description-0">Navigate search suggestions with up and down arrows, and use enter to select.</span>
+            <input class="js-site-searchbar-source" type="hidden" value="/resource/api/sitesearch/getsitesearchtypeahead/" data-id="1">
+            <!-- /.ent-header-search -->
+            <button class="ent-header-search-submit" id="header-search-submit" type="submit">
+                Search
+            </button>
+        </div>
+        <!-- /.ent-header-search-submit -->
+    </form>
+    <form id="jhmSubsiteSearch" method="get" name="jhmSubSiteSearch" action="/search" style="display:none;">
+        <input id="subsite-search-field" type="hidden" name="q" autocomplete="off">
+    </form>
+    <!-- /form.search -->
+</div>
+                </div>
+                <div class="close-button-container"><button class="close"><span class="sr-only">Close</span></button></div>
+            </div>
+        </div>
+    </div>

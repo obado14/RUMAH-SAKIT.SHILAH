@@ -1,0 +1,304 @@
+{
+  "title": "Johns Hopkins Medicine",
+  "metaTags": [
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Johns Hopkins Medicine is a leading health system and academic institution in the U.S. Find information about doctors, locations, appointments, billing, research, education and more."
+    },
+    {
+      "name": "og:title",
+      "content": "Home"
+    },
+    {
+      "name": "og:type",
+      "content": "website"
+    },
+    {
+      "name": "og:url",
+      "content": "https://www.hopkinsmedicine.org/"
+    },
+    {
+      "name": "fb:app_id",
+      "content": "1869607593310096"
+    },
+    {
+      "name": "og:description",
+      "content": "Johns Hopkins Medicine is a leading health system and academic institution in the U.S. Find information about doctors, locations, appointments, billing, research, education and more."
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:site",
+      "content": "@HopkinsMedicine"
+    },
+    {
+      "name": "twitter:url",
+      "content": "https://www.hopkinsmedicine.org/"
+    },
+    {
+      "name": "twitter:title",
+      "content": "Home"
+    },
+    {
+      "name": "twitter:description",
+      "content": "Johns Hopkins Medicine is a leading health system and academic institution in the U.S. Find information about doctors, locations, appointments, billing, research, education and more."
+    },
+    {
+      "name": "google-site-verification",
+      "content": "MWbYAkem29LuEuUezWe55E9spsKYp1A9Lcdzr7I_zrY"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/images/hopkins-medicine-logo-white-header.svg?iar=0&hash=C6173D209DB591FDF4EFE00B18C2FFE4",
+      "alt": "Johns Hopkins Medicine",
+      "width": 300,
+      "height": 59,
+      "className": "logo-svg"
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/icons-png---shared/stethoscope-blue.png",
+      "alt": "Illustration of a stethoscope.",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/icons-png---shared/location-blue.png",
+      "alt": "",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/icons-png---shared/appointment-blue.png",
+      "alt": "",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/icons-png---shared/mychart-blue.png",
+      "alt": "blue mychart icon",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/johns-hopkins-childrens-center/images/usnwr/25-26/peds-usnews-25-26-640-336-3.jpg",
+      "alt": "",
+      "width": 2667,
+      "height": 1400,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/usnews/images/26-27/us-news-hospital.jpg",
+      "alt": "The Johns Hopkins Hospital Top Ranked in the Nation",
+      "width": 650,
+      "height": 341,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/plastic-reconstructive-surgery/byoung-chol-oh-and-gerald-brandacher/rsl-ai/searson-team-copy/audrey_smith-copy/dannals_pomper.jpg",
+      "alt": "Robert Dannals, Martin Pomper",
+      "width": 900,
+      "height": 600,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/plastic-reconstructive-surgery/byoung-chol-oh-and-gerald-brandacher/rsl-ai/searson-team-copy/audrey_smith-copy.jpg",
+      "alt": "Audrey Smith",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/homepage/rsl-640.jpg",
+      "alt": "Research saves lives logo",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/homepage/ocd-children.jpg",
+      "alt": "Young girl reads her phone anxiously, her hand to her forehead",
+      "width": 760,
+      "height": 760,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/homepage/microgrippers-illustration.jpg",
+      "alt": "Illustrated therapeutic grippers with six prongs, racing through a blood vessel",
+      "width": 760,
+      "height": 760,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/homepage/digital-twin-heart.jpg",
+      "alt": "Model heart with a digital sketch double",
+      "width": 650,
+      "height": 650,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/medicine/images/som-logo.png?h=440&iar=0&w=640&hash=D029E5EBFBC931F4426EAFA54A5FE1D6",
+      "alt": "School of Medicine logo",
+      "width": 640,
+      "height": 440,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/jhm/images/homepage/researcher-in-lab.jpg?h=366&iar=0&w=650&hash=9D6F5BA6E2EC494762907F8B9CCE50B1",
+      "alt": "",
+      "width": 650,
+      "height": 366,
+      "className": ""
+    },
+    {
+      "src": "https://www.hopkinsmedicine.org/-/media/images/hopkins-nav-logo.svg",
+      "alt": "Johns Hopkins Medicine",
+      "width": 300,
+      "height": 63,
+      "className": "jhmLogo-custom"
+    },
+    {
+      "src": "https://cdn.cookielaw.org/logos/84762cb6-dc64-40f6-82cc-628fc29499e6/018ef1eb-4dc0-709f-ba41-901cf2971286/4d64719a-0ecd-4744-aba8-2d8081756f1d/logo192.png",
+      "alt": "Johns Hopkins Medicine Logo",
+      "width": 192,
+      "height": 193,
+      "className": "ot-bnr-logo"
+    },
+    {
+      "src": "https://cdn.cookielaw.org/logos/static/ot_company_logo.png",
+      "alt": "Company Logo",
+      "width": 2042,
+      "height": 280,
+      "className": ""
+    },
+    {
+      "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+      "alt": "Powered by Onetrust",
+      "width": 568,
+      "height": 53,
+      "className": ""
+    }
+  ],
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Johns Hopkins Medicine"
+    },
+    {
+      "tag": "h2",
+      "text": "Payments and Billing Assistance"
+    },
+    {
+      "tag": "h3",
+      "text": "Feeling Sick? Learn Where to Go for Care"
+    },
+    {
+      "tag": "h3",
+      "text": "#1 in Maryland, #1 in Florida"
+    },
+    {
+      "tag": "h3",
+      "text": "Top Ranked"
+    },
+    {
+      "tag": "h2",
+      "text": "Important Information for Patients with UnitedHealthcare"
+    },
+    {
+      "tag": "h2",
+      "text": "Research Saves Lives"
+    },
+    {
+      "tag": "h2",
+      "text": "News and Features"
+    },
+    {
+      "tag": "h3",
+      "text": "Further Reading"
+    },
+    {
+      "tag": "h3",
+      "text": "Johns Hopkins School of Medicine"
+    },
+    {
+      "tag": "h3",
+      "text": "Research at Johns Hopkins"
+    },
+    {
+      "tag": "h2",
+      "text": ""
+    },
+    {
+      "tag": "h2",
+      "text": "Cookie Preferences"
+    },
+    {
+      "tag": "h2",
+      "text": "Cookie Preference Center"
+    },
+    {
+      "tag": "h2",
+      "text": "Cookie Preference Center"
+    },
+    {
+      "tag": "h3",
+      "text": "Your Privacy"
+    },
+    {
+      "tag": "h3",
+      "text": "Strictly Necessary Cookies"
+    },
+    {
+      "tag": "h3",
+      "text": "Website Traffic Measurement"
+    },
+    {
+      "tag": "h3",
+      "text": "Functional/Performance Cookies"
+    },
+    {
+      "tag": "h3",
+      "text": "Advertising Cookies"
+    },
+    {
+      "tag": "h4",
+      "text": "Your Privacy"
+    },
+    {
+      "tag": "h4",
+      "text": "Strictly Necessary Cookies"
+    },
+    {
+      "tag": "h4",
+      "text": "Website Traffic Measurement"
+    },
+    {
+      "tag": "h4",
+      "text": "Functional/Performance Cookies"
+    },
+    {
+      "tag": "h4",
+      "text": "Advertising Cookies"
+    },
+    {
+      "tag": "h3",
+      "text": "Cookie List"
+    }
+  ],
+  "fonts": {
+    "fontFamily": "\"Noto Sans\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(51, 51, 51)",
+    "backgroundColor": "rgb(255, 255, 255)"
+  }
+}
