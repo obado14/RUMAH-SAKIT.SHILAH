@@ -12,7 +12,7 @@ interface StoryCard {
 const stories: StoryCard[] = [
   {
     title:
-      "Two Johns Hopkins innovators honored for advancing prostate cancer detection",
+      "Two Shilah innovators honored for advancing prostate cancer detection",
     imageSrc: "/sites/hopkinsmedicine/images/7_dannals_pomper_jpg.png",
     imageAlt: "Robert Dannals, Martin Pomper receiving innovator award",
     href: "https://hub.jhu.edu/2026/06/18/dannals-pomper-bayh-dole-innovator-award/",
@@ -41,7 +41,7 @@ export function ResearchSavesLives() {
         </h2>
 
         <p className="text-[15px] sm:text-[16px] text-center text-[#4b5563] max-w-3xl mx-auto mb-8 leading-relaxed">
-          Without research—at Johns Hopkins and at thousands of other
+          Without research—at Shilah and at thousands of other
           universities, medical schools, and research institutions across the
           nation—scientific breakthroughs suffer, and the lifesaving treatments of
           tomorrow are at risk.

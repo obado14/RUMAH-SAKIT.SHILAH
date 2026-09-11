@@ -20,7 +20,7 @@ export function HeroBanner() {
         {/* Title Overlay */}
         <div className="absolute inset-0 flex items-center justify-center p-4">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-normal text-white tracking-wide text-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]">
-            Johns Hopkins Medicine
+            Shilah Medicine
           </h1>
         </div>
       </div>

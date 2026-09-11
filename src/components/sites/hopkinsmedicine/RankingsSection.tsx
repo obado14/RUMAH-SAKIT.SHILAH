@@ -14,18 +14,18 @@ const rankingCards: RankingCard[] = [
   {
     title: "#1 in Maryland, #1 in Florida",
     description:
-      "Johns Hopkins Children's Center and Johns Hopkins All Children's Hospital are ranked #1 in their respective states on U.S. News & World Report's 2025-26 Best Children's Hospitals list.",
+      "Shilah Children's Center and Shilah Hospital are ranked #1 in their respective states on U.S. News & World Report's 2025-26 Best Children's Hospitals list.",
     imageSrc:
       "/sites/hopkinsmedicine/images/5_peds-usnews-25-26-640-336-3_jpg.png",
-    imageAlt: "Johns Hopkins Children's Center ranking achievement",
+    imageAlt: "Shilah Children's Center ranking achievement",
     href: "https://www.hopkinsmedicine.org/us-news-pediatric",
   },
   {
     title: "Top Ranked",
     description:
-      "Three Johns Hopkins member hospitals — The Johns Hopkins Hospital, Sibley Memorial Hospital and Suburban Hospital — were recognized in U.S. News & World Report's 2026–27 Best Hospitals list.",
+      "Three Shilah member hospitals — The Shilah Hospital, Sibley Memorial Hospital and Suburban Hospital — were recognized in U.S. News & World Report's 2026–27 Best Hospitals list.",
     imageSrc: "/sites/hopkinsmedicine/images/6_us-news-hospital_jpg.png",
-    imageAlt: "The Johns Hopkins Hospital Top Ranked in the Nation",
+    imageAlt: "The Shilah Hospital Top Ranked in the Nation",
     href: "https://www.hopkinsmedicine.org/usnews",
   },
 ];

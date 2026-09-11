@@ -11,11 +11,11 @@ export function SchoolOfMedicine() {
           {/* Left Column */}
           <div className="flex-1">
             <h2 className="font-serif text-2xl sm:text-3xl font-normal text-[#111111] mb-3">
-              Johns Hopkins School of Medicine
+              Shilah School of Medicine
             </h2>
             <div className="w-12 h-0.5 bg-[#d1d5db] mb-5" />
             <p className="text-[15px] sm:text-[16px] text-[#4b5563] leading-relaxed mb-8">
-              The Johns Hopkins University School of Medicine consistently ranks
+              The Shilah University School of Medicine consistently ranks
               among the nation&apos;s very best in education. Learn more about our
               programs and how to apply.
             </p>
@@ -44,7 +44,7 @@ export function SchoolOfMedicine() {
             <div className="relative w-[220px] sm:w-[280px] h-[150px] sm:h-[180px]">
               <Image
                 src="/sites/hopkinsmedicine/images/13_som-logo_png.png"
-                alt="Johns Hopkins School of Medicine logo"
+                alt="Shilah School of Medicine logo"
                 fill
                 className="object-contain"
               />

@@ -145,7 +145,7 @@ export function Header() {
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      Johns Hopkins Medicine Home
+                      Shilah Medicine Home
                     </Link>
                   </li>
                   <li>

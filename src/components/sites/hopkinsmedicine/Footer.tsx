@@ -91,7 +91,7 @@ export function Footer() {
                 href="https://www.hopkinsmedicine.org/contact"
                 className="hover:underline hover:text-white"
               >
-                Contact Johns Hopkins Medicine
+                Contact Shilah Medicine
               </Link>
             </p>
             <p className="space-x-2">
@@ -202,8 +202,7 @@ export function Footer() {
         {/* Bottom: Copyright */}
         <div className="pt-8 text-center sm:text-left text-[13px] text-white/60">
           <p>
-            Copyright © 2026 The Johns Hopkins University, The Johns Hopkins
-            Hospital, and Johns Hopkins Health System. All rights reserved.
+            Copyright © 2026 Shilah Health System, Shilah Hospital, and Shilah University. All rights reserved.
           </p>
         </div>
       </div>

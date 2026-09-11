@@ -11,11 +11,11 @@ export function ResearchSpotlight() {
           {/* Left Content */}
           <div className="flex-1 p-8 sm:p-12 lg:p-14">
             <h2 className="font-serif text-2xl sm:text-3xl font-normal text-white mb-3">
-              Research at Johns Hopkins
+              Research at Shilah
             </h2>
             <div className="w-12 h-0.5 bg-white/40 mb-6" />
             <p className="text-[15px] sm:text-[16px] text-white/90 leading-relaxed font-light mb-8 max-w-lg">
-              Research is the foundation of Johns Hopkins Medicine, yielding new
+              Research is the foundation of Shilah Medicine, yielding new
               insights and better treatment. Learn more about our labs, research
               faculty and clinical trials.
             </p>

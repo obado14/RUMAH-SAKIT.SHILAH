@@ -52,7 +52,7 @@ export default function Home() {
         {/* School of Medicine Spotlight */}
         <SchoolOfMedicine />
 
-        {/* Research at Johns Hopkins Spotlight */}
+        {/* Research at Shilah Spotlight */}
         <ResearchSpotlight />
       </main>
 

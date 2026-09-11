@@ -13,8 +13,8 @@ export function AlertBanner() {
           </h2>
           <p className="text-[15px] sm:text-[16px] text-white/90 leading-relaxed font-light">
             As of August 25, 2025, all providers and facilities that are part of
-            Johns Hopkins Medicine, EXCEPT FOR Johns Hopkins All Children&apos;s
-            Hospital in Florida, are considered out of network by UnitedHealthcare.
+            Shilah Medicine, EXCEPT FOR Shilah Children&apos;s
+            Hospital, are considered out of network by UnitedHealthcare.
           </p>
         </div>
 
