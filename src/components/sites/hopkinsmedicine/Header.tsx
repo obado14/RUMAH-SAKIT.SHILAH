@@ -32,18 +32,18 @@ export function Header() {
         {/* Left: Brand Logo */}
         <div className="flex items-center space-x-6">
           <Link
-            href="https://www.hopkinsmedicine.org/"
+            href="/"
             className="flex items-center focus:outline-none focus:ring-2 focus:ring-white rounded py-1"
-            aria-label="Johns Hopkins Medicine Home"
+            aria-label="Shilah Medicine Home"
           >
-            <div className="relative w-[210px] sm:w-[260px] h-[48px] flex items-center">
+            <div className="relative w-[210px] sm:w-[260px] h-[52px] flex items-center">
               <Image
-                src="/sites/hopkinsmedicine/images/0_hopkins-medicine-logo-white-header_svg.png"
-                alt="Johns Hopkins Medicine"
+                src="/sites/hopkinsmedicine/images/shilah_logo_transparent.png"
+                alt="Shilah Medicine - Kesehatan Anda, Prioritas Kami"
                 width={260}
                 height={52}
                 priority
-                className="object-contain"
+                className="object-contain object-left max-h-full"
               />
             </div>
           </Link>

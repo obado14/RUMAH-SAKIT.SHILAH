@@ -40,16 +40,16 @@ export function Footer() {
         {/* Top: Brand Logo */}
         <div className="mb-10">
           <Link
-            href="https://www.hopkinsmedicine.org/"
+            href="/"
             className="inline-block"
-            aria-label="Johns Hopkins Medicine"
+            aria-label="Shilah Medicine"
           >
-            <div className="relative w-[220px] sm:w-[260px] h-[52px]">
+            <div className="relative w-[200px] sm:w-[250px] h-[60px]">
               <Image
-                src="/sites/hopkinsmedicine/images/0_hopkins-medicine-logo-white-header_svg.png"
-                alt="Johns Hopkins Medicine"
+                src="/sites/hopkinsmedicine/images/shilah_logo_transparent.png"
+                alt="Shilah Medicine - Kesehatan Anda, Prioritas Kami"
                 fill
-                className="object-contain"
+                className="object-contain object-left"
               />
             </div>
           </Link>

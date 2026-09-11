@@ -15,11 +15,11 @@ const notoSerif = Noto_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Johns Hopkins Medicine",
+  title: "Shilah Medicine - Kesehatan Anda, Prioritas Kami",
   description:
-    "Johns Hopkins Medicine is a leading health system and academic institution in the U.S. Find information about doctors, locations, appointments, billing, research, education and more.",
+    "Shilah Medicine - Layanan kesehatan terdepan dan komprehensif. Temukan informasi dokter, lokasi klinik, jadwal temu, dan layanan medis terbaik.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/sites/hopkinsmedicine/images/shilah_logo_transparent.png",
   },
 };
 
