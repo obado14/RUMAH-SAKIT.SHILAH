@@ -28,7 +28,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-white border-b border-[#e2e8f0] shadow-sm">
       {/* Top Main Nav Bar */}
-      <div className="w-full flex items-center justify-between px-4 sm:px-8 py-0 h-[64px] lg:h-[72px] bg-[#002D72] text-white">
+      <div className="w-full flex items-center justify-between px-4 sm:px-8 py-1 h-[82px] lg:h-[86px] bg-[#002D72] text-white">
         {/* Left: Brand Logo */}
         <div className="flex items-center space-x-6">
           <Link
@@ -36,14 +36,15 @@ export function Header() {
             className="flex items-center focus:outline-none focus:ring-2 focus:ring-white rounded py-1"
             aria-label="Shilah Medicine Home"
           >
-            <div className="relative w-[210px] sm:w-[260px] h-[52px] flex items-center">
+            <div className="relative w-[194px] h-[70.61px] flex items-center shrink-0">
               <Image
                 src="/sites/hopkinsmedicine/images/shilah_logo_transparent.png"
                 alt="Shilah Medicine - Kesehatan Anda, Prioritas Kami"
-                width={260}
-                height={52}
+                width={194}
+                height={71}
+                style={{ width: "194px", height: "70.61px" }}
                 priority
-                className="object-contain object-left max-h-full"
+                className="object-contain object-left"
               />
             </div>
           </Link>
@@ -104,7 +105,7 @@ export function Header() {
 
       {/* Menu Overlay Drawer */}
       {isMenuOpen && (
-        <div className="fixed inset-x-0 top-[64px] lg:top-[72px] bottom-0 z-40 bg-black/60 backdrop-blur-[2px] transition-opacity">
+        <div className="fixed inset-x-0 top-[82px] lg:top-[86px] bottom-0 z-40 bg-black/60 backdrop-blur-[2px] transition-opacity">
           <div className="relative w-full max-w-6xl mx-auto bg-white shadow-2xl p-6 sm:p-12 animate-in fade-in slide-in-from-top-4 duration-200">
             {/* Close button */}
             <button
@@ -243,7 +244,7 @@ export function Header() {
 
       {/* Search Overlay Drawer */}
       {isSearchOpen && (
-        <div className="fixed inset-x-0 top-[64px] lg:top-[72px] bottom-0 z-40 bg-black/60 backdrop-blur-[2px] transition-opacity">
+        <div className="fixed inset-x-0 top-[82px] lg:top-[86px] bottom-0 z-40 bg-black/60 backdrop-blur-[2px] transition-opacity">
           <div className="relative w-full max-w-6xl mx-auto bg-white shadow-2xl p-8 sm:p-12 animate-in fade-in slide-in-from-top-4 duration-200">
             <button
               onClick={closeAll}

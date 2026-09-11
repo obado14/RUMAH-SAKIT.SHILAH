@@ -44,11 +44,13 @@ export function Footer() {
             className="inline-block"
             aria-label="Shilah Medicine"
           >
-            <div className="relative w-[200px] sm:w-[250px] h-[60px]">
+            <div className="relative w-[194px] h-[70.61px]">
               <Image
                 src="/sites/hopkinsmedicine/images/shilah_logo_transparent.png"
                 alt="Shilah Medicine - Kesehatan Anda, Prioritas Kami"
-                fill
+                width={194}
+                height={71}
+                style={{ width: "194px", height: "70.61px" }}
                 className="object-contain object-left"
               />
             </div>
