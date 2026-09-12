@@ -49,7 +49,7 @@ const allDoctors: Doctor[] = [
     hospital: "Shilah Central Hospital (Pusat Otak, Lt. 2)",
     education: "Doktor Ilmu Kedokteran Shilah University & Postdoc Neuroscience",
     schedule: "Selasa & Kamis: 09:00 - 14:00 WIB",
-    image: "/sites/hopkinsmedicine/images/14_researcher-in-lab_jpg.png",
+    image: "/sites/hopkinsmedicine/images/prof_ratna_shilah.jpeg",
   },
   {
     id: "dr-maya",
@@ -60,7 +60,7 @@ const allDoctors: Doctor[] = [
     hospital: "Shilah Children's Center (Paviliun Anak, Lt. 1)",
     education: "Universitas Indonesia & Fellowship Pediatric Care Shilah Medicine",
     schedule: "Senin - Sabtu: 08:00 - 12:00 WIB",
-    image: "/sites/hopkinsmedicine/images/10_ocd-children_jpg.png",
+    image: "/sites/hopkinsmedicine/images/dr_maya_kartika.jpeg",
   },
   {
     id: "dr-hendra",
@@ -71,7 +71,7 @@ const allDoctors: Doctor[] = [
     hospital: "Shilah Central Hospital (Klinik Ortopedi, Lt. 4)",
     education: "Shilah School of Medicine & Spine Institute Fellowship",
     schedule: "Senin, Selasa, Kamis: 13:00 - 17:00 WIB",
-    image: "/sites/hopkinsmedicine/images/hero_bg.jpg",
+    image: "/sites/hopkinsmedicine/images/dr_hendra_pratama.jpeg",
   },
   {
     id: "dr-dewi",
@@ -82,7 +82,7 @@ const allDoctors: Doctor[] = [
     hospital: "Shilah Cancer Comprehensive Center (Lt. 5)",
     education: "Shilah University School of Medicine",
     schedule: "Rabu, Jumat, Sabtu: 10:00 - 15:00 WIB",
-    image: "/sites/hopkinsmedicine/images/14_researcher-in-lab_jpg.png",
+    image: "/sites/hopkinsmedicine/images/dr_dewi_anggraini.jpeg",
   },
   {
     id: "dr-farhan",
@@ -93,7 +93,7 @@ const allDoctors: Doctor[] = [
     hospital: "Shilah Women's & Maternal Health Center (Lt. 2)",
     education: "Fakultas Kedokteran Shilah University & Reproductive Fellowship",
     schedule: "Selasa, Kamis, Sabtu: 08:30 - 13:30 WIB",
-    image: "/sites/hopkinsmedicine/images/12_digital-twin-heart_jpg.png",
+    image: "/sites/hopkinsmedicine/images/dr_farhan_gunawan.jpeg",
   },
 ];
 
