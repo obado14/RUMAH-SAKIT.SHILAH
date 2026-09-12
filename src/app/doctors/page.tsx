@@ -215,76 +215,81 @@ export default function DoctorsPage() {
               {filteredDoctors.map((doc) => (
                 <div
                   key={doc.id}
-                  className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between"
+                  className="bg-white rounded-2xl border border-gray-200 p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row gap-5"
                 >
-                  <div>
-                    <div className="flex items-start justify-between gap-4 mb-4">
-                      <div>
-                        <span className="inline-block px-2.5 py-0.5 rounded text-[11px] font-semibold bg-blue-50 text-[#0077C8] border border-blue-100 mb-2">
+                  {/* Foto Dokter Rasio 3:4 */}
+                  <div className="relative w-32 sm:w-36 shrink-0 aspect-[3/4] rounded-xl overflow-hidden border border-blue-100 bg-blue-50 shadow-sm self-center sm:self-start">
+                    {doc.image ? (
+                      <Image
+                        src={doc.image}
+                        alt={doc.name}
+                        fill
+                        className="object-cover object-top"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center text-[#002D72]">
+                        <Stethoscope className="w-10 h-10" />
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Detail Informasi Dokter */}
+                  <div className="flex-1 flex flex-col justify-between min-w-0">
+                    <div>
+                      <div className="mb-2">
+                        <span className="inline-block px-2.5 py-0.5 rounded text-[11px] font-semibold bg-blue-50 text-[#0077C8] border border-blue-100 mb-1.5">
                           {doc.department}
                         </span>
-                        <h3 className="font-serif text-lg sm:text-xl font-bold text-[#111111]">
+                        <h3 className="font-serif text-lg sm:text-xl font-bold text-[#111111] leading-snug">
                           {doc.name}
                         </h3>
                         <p className="text-xs sm:text-sm text-[#0077C8] font-medium mt-0.5">
                           {doc.specialty}
                         </p>
                       </div>
-                      <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-2 border-blue-200 bg-blue-50 flex items-center justify-center shrink-0 shadow-sm">
-                        {doc.image ? (
-                          <Image
-                            src={doc.image}
-                            alt={doc.name}
-                            fill
-                            className="object-cover object-top"
-                          />
-                        ) : (
-                          <Stethoscope className="w-8 h-8 text-[#002D72]" />
-                        )}
+
+                      <div className="space-y-2 text-xs text-gray-600 border-t border-gray-100 pt-2.5">
+                        <div className="flex items-start space-x-2">
+                          <Award className="w-4 h-4 text-[#FFC20E] shrink-0 mt-0.5" />
+                          <span>
+                            <strong className="text-gray-800">Subspesialisasi:</strong> {doc.subspecialty}
+                          </span>
+                        </div>
+                        <div className="flex items-start space-x-2">
+                          <GraduationCap className="w-4 h-4 text-gray-500 shrink-0 mt-0.5" />
+                          <span className="line-clamp-1" title={doc.education}>
+                            <strong className="text-gray-800">Alumni:</strong> {doc.education}
+                          </span>
+                        </div>
+                        <div className="flex items-start space-x-2">
+                          <MapPin className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
+                          <span className="line-clamp-1" title={doc.hospital}>
+                            <strong className="text-gray-800">Lokasi Praktik:</strong> {doc.hospital}
+                          </span>
+                        </div>
+                        <div className="flex items-start space-x-2">
+                          <Calendar className="w-4 h-4 text-[#0077C8] shrink-0 mt-0.5" />
+                          <span>
+                            <strong className="text-gray-800">Jadwal Praktik:</strong> {doc.schedule}
+                          </span>
+                        </div>
                       </div>
                     </div>
 
-                    <div className="space-y-2.5 text-xs text-gray-600 border-t border-gray-100 pt-3">
-                      <div className="flex items-start space-x-2">
-                        <Award className="w-4 h-4 text-[#FFC20E] shrink-0 mt-0.5" />
-                        <span>
-                          <strong className="text-gray-800">Subspesialisasi:</strong> {doc.subspecialty}
-                        </span>
-                      </div>
-                      <div className="flex items-start space-x-2">
-                        <GraduationCap className="w-4 h-4 text-gray-500 shrink-0 mt-0.5" />
-                        <span>
-                          <strong className="text-gray-800">Alumni:</strong> {doc.education}
-                        </span>
-                      </div>
-                      <div className="flex items-start space-x-2">
-                        <MapPin className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
-                        <span>
-                          <strong className="text-gray-800">Lokasi Praktik:</strong> {doc.hospital}
-                        </span>
-                      </div>
-                      <div className="flex items-start space-x-2">
-                        <Calendar className="w-4 h-4 text-[#0077C8] shrink-0 mt-0.5" />
-                        <span>
-                          <strong className="text-gray-800">Jadwal Praktik:</strong> {doc.schedule}
-                        </span>
-                      </div>
+                    <div className="mt-4 pt-3 border-t border-gray-100 flex items-center gap-2">
+                      <Link
+                        href={`/appointments?doctor=${encodeURIComponent(doc.name)}`}
+                        className="flex-1 text-center py-2 px-3 bg-[#0077C8] hover:bg-[#005fa3] text-white text-xs font-semibold rounded-lg transition-colors shadow-sm"
+                      >
+                        Jadwalkan Janji Temu
+                      </Link>
+                      <Link
+                        href="/about"
+                        className="py-2 px-3 bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold rounded-lg transition-colors"
+                      >
+                        Detail Profil
+                      </Link>
                     </div>
-                  </div>
-
-                  <div className="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between gap-3">
-                    <Link
-                      href={`/appointments?doctor=${encodeURIComponent(doc.name)}`}
-                      className="flex-1 text-center py-2.5 px-4 bg-[#0077C8] hover:bg-[#005fa3] text-white text-xs font-semibold rounded-md transition-colors shadow-sm"
-                    >
-                      Jadwalkan Janji Temu
-                    </Link>
-                    <Link
-                      href="/about"
-                      className="py-2.5 px-4 bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold rounded-md transition-colors"
-                    >
-                      Detail Profil
-                    </Link>
                   </div>
                 </div>
               ))}
