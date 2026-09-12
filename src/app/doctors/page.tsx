@@ -8,10 +8,6 @@ import { Footer } from "@/components/sites/hopkinsmedicine/Footer";
 import { CookieBanner } from "@/components/sites/hopkinsmedicine/CookieBanner";
 import {
   Search,
-  Calendar,
-  Award,
-  GraduationCap,
-  MapPin,
   Stethoscope,
   Filter,
 } from "lucide-react";
@@ -209,95 +205,64 @@ export default function DoctorsPage() {
             </span>
           </div>
 
-          {/* Doctors Grid - 3:4 Aspect Ratio Cards */}
+          {/* Doctors Grid - Interactive 3:4 Cards */}
           {filteredDoctors.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
               {filteredDoctors.map((doc) => (
-                <div
-                  key={doc.id}
-                  className="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group"
-                >
-                  <div>
-                    {/* 3:4 Aspect Ratio Photo Container */}
-                    <div className="relative w-full aspect-[3/4] bg-slate-100 overflow-hidden">
-                      {doc.image ? (
-                        <Image
-                          src={doc.image}
-                          alt={doc.name}
-                          fill
-                          className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
-                        />
-                      ) : (
-                        <div className="w-full h-full flex items-center justify-center text-[#002D72]">
-                          <Stethoscope className="w-16 h-16" />
-                        </div>
-                      )}
+                <div key={doc.id} className="card doctor-interactive-card group">
+                  {/* Doctor Image - 3:4 initial, transitions to 1:1 on hover */}
+                  {doc.image ? (
+                    <Image
+                      src={doc.image}
+                      alt={doc.name}
+                      width={400}
+                      height={533}
+                      className="doctor-card-img"
+                    />
+                  ) : (
+                    <div className="doctor-card-img bg-blue-50 flex items-center justify-center text-[#002D72]">
+                      <Stethoscope className="w-16 h-16" />
+                    </div>
+                  )}
 
-                      {/* Dark Gradient Overlay at Bottom of Photo */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent" />
+                  <section>
+                    {/* Doctor Name - Transitions from image overlay to top of section */}
+                    <h2>{doc.name}</h2>
 
-                      {/* Floating Department Badge */}
-                      <div className="absolute top-3 left-3">
-                        <span className="inline-block px-3 py-1 rounded-full text-[11px] font-semibold bg-white/95 text-[#0077C8] backdrop-blur-md shadow-sm border border-blue-100">
-                          {doc.department}
-                        </span>
-                      </div>
-
-                      {/* Doctor Name & Specialty Overlay */}
-                      <div className="absolute bottom-3.5 left-4 right-4 text-white">
-                        <h3 className="font-serif text-lg sm:text-xl font-bold leading-tight drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
-                          {doc.name}
-                        </h3>
-                        <p className="text-xs sm:text-sm text-white/95 font-medium mt-1 drop-shadow">
-                          {doc.specialty}
-                        </p>
-                      </div>
+                    {/* Doctor Details - Smoothly fades & translates up */}
+                    <div className="doctor-info space-y-1.5">
+                      <p className="text-xs font-semibold text-[#0077C8] mb-1">
+                        {doc.specialty}
+                      </p>
+                      <p className="text-[12px] text-gray-600 line-clamp-2 leading-relaxed">
+                        <strong className="text-gray-800">Subspesialis:</strong> {doc.subspecialty}
+                      </p>
+                      <p className="text-[11px] text-gray-500 line-clamp-1">
+                        <strong className="text-gray-700">Praktik:</strong> {doc.hospital}
+                      </p>
+                      <p className="text-[11px] text-gray-500 line-clamp-1">
+                        <strong className="text-gray-700">Jadwal:</strong> {doc.schedule}
+                      </p>
                     </div>
 
-                    {/* Information Details */}
-                    <div className="p-5 space-y-2.5 text-xs text-gray-600">
-                      <div className="flex items-start space-x-2">
-                        <Award className="w-4 h-4 text-[#FFC20E] shrink-0 mt-0.5" />
-                        <span>
-                          <strong className="text-gray-800">Subspesialis:</strong> {doc.subspecialty}
-                        </span>
+                    {/* Bottom Action Row - Tag + Follow/Appointment Button */}
+                    <div className="doctor-action-row">
+                      <div
+                        className="tag text-xs font-semibold text-[#0077C8] bg-blue-50/90 px-3 py-1 rounded-full border border-blue-100/80 shadow-xs"
+                        aria-label={doc.department}
+                      >
+                        {doc.department}
                       </div>
-                      <div className="flex items-start space-x-2">
-                        <GraduationCap className="w-4 h-4 text-gray-400 shrink-0 mt-0.5" />
-                        <span className="line-clamp-1" title={doc.education}>
-                          <strong className="text-gray-800">Alumni:</strong> {doc.education}
-                        </span>
-                      </div>
-                      <div className="flex items-start space-x-2">
-                        <MapPin className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
-                        <span className="line-clamp-1" title={doc.hospital}>
-                          <strong className="text-gray-800">Lokasi:</strong> {doc.hospital}
-                        </span>
-                      </div>
-                      <div className="flex items-start space-x-2">
-                        <Calendar className="w-4 h-4 text-[#0077C8] shrink-0 mt-0.5" />
-                        <span>
-                          <strong className="text-gray-800">Jadwal:</strong> {doc.schedule}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
 
-                  {/* Card Actions */}
-                  <div className="p-5 pt-0 flex items-center gap-2">
-                    <Link
-                      href={`/appointments?doctor=${encodeURIComponent(doc.name)}`}
-                      className="flex-1 text-center py-2.5 px-4 bg-[#0077C8] hover:bg-[#005fa3] text-white text-xs font-semibold rounded-lg transition-colors shadow-sm"
-                    >
-                      Jadwalkan Janji Temu
-                    </Link>
-                    <Link
-                      href="/about"
-                      className="py-2.5 px-4 bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold rounded-lg transition-colors"
-                    >
-                      Profil
-                    </Link>
-                  </div>
+                      <Link
+                        href={`/appointments?doctor=${encodeURIComponent(doc.name)}`}
+                        className="doctor-card-btn"
+                        title="Buat Janji Temu dengan Dokter"
+                      >
+                        Janji Temu
+                      </Link>
+                    </div>
+                  </section>
                 </div>
               ))}
             </div>

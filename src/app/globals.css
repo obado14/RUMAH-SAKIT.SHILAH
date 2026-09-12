@@ -132,3 +132,169 @@
     @apply font-sans;
   }
 }
+
+/* Interactive 3:4 Doctor Card (CodePen Style) */
+.doctor-interactive-card {
+  --bg: #ffffff;
+  --title-color: #ffffff;
+  --title-color-hover: #111111;
+  --text-color: #4b5563;
+  --button-bg: #0077C8;
+  --button-hover-bg: #005fa3;
+  background: var(--bg);
+  border-radius: 2rem;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 22rem;
+  height: 31.5rem;
+  overflow: clip;
+  position: relative;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.06), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e5e7eb;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  margin: 0 auto;
+}
+
+.doctor-interactive-card:hover,
+.doctor-interactive-card:focus-within {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.12), 0 8px 10px -6px rgba(0, 0, 0, 0.06);
+  transform: translateY(-4px);
+}
+
+.doctor-interactive-card::before {
+  content: "";
+  position: absolute;
+  width: calc(100% - 1rem);
+  height: 35%;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  mask-image: linear-gradient(to bottom, transparent, black 80%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 80%);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  border-radius: 0 0 1.5rem 1.5rem;
+  transform: translateY(0);
+  transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.doctor-interactive-card:hover::before,
+.doctor-interactive-card:focus-within::before {
+  transform: translateY(110%);
+}
+
+.doctor-interactive-card .doctor-card-img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: 50% 10%;
+  border-radius: 1.5rem;
+  display: block;
+  transition: aspect-ratio 0.28s cubic-bezier(0.4, 0, 0.2, 1), object-position 0.4s ease;
+}
+
+.doctor-interactive-card:hover .doctor-card-img,
+.doctor-interactive-card:focus-within .doctor-card-img {
+  aspect-ratio: 1 / 1;
+  object-position: 50% 10%;
+}
+
+.doctor-interactive-card section {
+  margin: 0.85rem 1rem 0.5rem;
+  height: calc(36% - 1rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-interactive-card h2 {
+  margin: 0;
+  margin-block-end: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  color: var(--title-color);
+  transform: translateY(-210%);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.85);
+  transition: color 0.4s, margin-block-end 0.25s, transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 6;
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.doctor-interactive-card:hover h2,
+.doctor-interactive-card:focus-within h2 {
+  transform: translateY(0);
+  margin-block-end: 0.35rem;
+  color: var(--title-color-hover);
+  text-shadow: none;
+}
+
+.doctor-interactive-card .doctor-info {
+  opacity: 0;
+  margin: 0;
+  transform: translateY(80%);
+  transition: margin-block-end 0.25s, opacity 0.4s ease 0.1s, transform 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
+}
+
+.doctor-interactive-card:hover .doctor-info,
+.doctor-interactive-card:focus-within .doctor-info {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.doctor-interactive-card .doctor-action-row {
+  flex: 1;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0.15s, opacity 0.4s ease 0.15s;
+  padding-top: 0.5rem;
+}
+
+.doctor-interactive-card:hover .doctor-action-row,
+.doctor-interactive-card:focus-within .doctor-action-row {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.doctor-card-btn {
+  border: 1px solid transparent;
+  border-radius: 1.25rem 1.25rem 1.5rem 1.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.65rem 1.15rem 0.65rem 2.25rem;
+  background: var(--button-bg);
+  color: #ffffff;
+  transition: background 0.25s, transform 0.15s;
+  outline-offset: 2px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.doctor-card-btn:hover {
+  background: var(--button-hover-bg);
+}
+
+.doctor-card-btn::before,
+.doctor-card-btn::after {
+  content: "";
+  width: 0.7rem;
+  height: 0.1rem;
+  background: currentColor;
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  border-radius: 1rem;
+}
+
+.doctor-card-btn::after {
+  transform: rotate(90deg);
+  transition: transform 0.15s;
+}
+
+.doctor-card-btn:hover::after {
+  transform: rotate(0deg);
+}
