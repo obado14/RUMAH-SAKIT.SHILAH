@@ -1,0 +1,256 @@
+export interface HealthGuide {
+  slug: string;
+  title: string;
+  category: string;
+  iconName: string;
+  summary: string;
+  fullTitle: string;
+  intro: string;
+  warningSigns: string[];
+  riskFactors: string[];
+  preventionTips: string[];
+  recommendedExams: string[];
+  doctorName: string;
+  doctorSpecialty: string;
+  doctorImage: string;
+  doctorDepartment: string;
+}
+
+export const healthGuides: HealthGuide[] = [
+  {
+    slug: "kardiologi-jantung",
+    title: "Kardiologi & Jantung",
+    category: "Pusat Jantung Terpadu",
+    iconName: "Heart",
+    summary: "Pencegahan penyakit jantung koroner, hipertensi, dan panduan gaya hidup sehat bagi kesehatan kardiovaskular.",
+    fullTitle: "Panduan Lengkap Kesehatan Jantung & Pencegahan Penyakit Kardiovaskular",
+    intro: "Penyakit jantung dan pembuluh darah merupakan salah satu penyebab morbiditas tertinggi di dunia. Melalui deteksi dini faktor risiko seperti hipertensi, dislipidemia, dan gaya hidup minim gerak, sebagian besar serangan jantung dan komplikasi kardiovaskular dapat dicegah secara efektif.",
+    warningSigns: [
+      "Nyeri atau rasa tertekan di dada bagian tengah yang menjalar ke lengan kiri, leher, atau rahang",
+      "Sesak napas mendadak baik saat beraktivitas ringan maupun saat beristirahat",
+      "Detak jantung terasa berdebar kencang, tidak beraturan, atau melambat mendadak",
+      "Keringat dingin berlebih disertai rasa mual dan pusing berputar",
+      "Pembengkakan pada kedua pergelangan kaki atau tungkai bawah",
+    ],
+    riskFactors: [
+      "Tekanan darah tinggi (Hipertensi > 130/80 mmHg) yang tidak terkontrol",
+      "Kadar kolesterol LDL dan Trigliserida tinggi dalam darah",
+      "Kebiasaan merokok aktif maupun paparan asap rokok pasif",
+      "Riwayat penyakit diabetes melitus atau resistensi insulin",
+      "Riwayat keluarga dengan serangan jantung pada usia dini (< 55 tahun)",
+    ],
+    preventionTips: [
+      "Terapkan diet Mediterania atau DASH: perbanyak sayuran hijau, buah beri, ikan salmon/tuna, dan batasi konsumsi garam < 1 sendok teh (5g) per hari.",
+      "Lakukan latihan kardio aerobik intensitas sedang minimal 150 menit per minggu (misal: jalan cepat 30 menit, 5 hari seminggu).",
+      "Kelola stres secara berkala dengan teknik relaksasi pernapasan dan pastikan tidur berkualitas 7-8 jam tiap malam.",
+      "Lakukan pemeriksaan profil lipid darah dan rekam jantung (EKG) rutin setiap 1 tahun bagi usia di atas 35 tahun.",
+    ],
+    recommendedExams: [
+      "Elektrokardiogram (EKG 12-Lead)",
+      "Ekokardiografi Lanjut (USG Jantung Trans-Torakal)",
+      "Treadmill Stress Test (Uji Latih Jantung)",
+      "CT Calcium Score Koroner & CT Angiografi Jantung",
+      "Pemeriksaan Biomarker Darah (Hs-CRP, Troponin, Profil Lipid Lengkap)",
+    ],
+    doctorName: "dr. Adrian Shilah, Sp.JP(K), FIHA",
+    doctorSpecialty: "Spesialis Jantung & Pembuluh Darah - Konsultan Kardiologi Intervensi",
+    doctorImage: "/sites/hopkinsmedicine/images/dr_adrian_shilah.jpeg",
+    doctorDepartment: "Kardiologi",
+  },
+  {
+    slug: "neurologi-saraf",
+    title: "Neurologi & Saraf",
+    category: "Pusat Otak & Saraf",
+    iconName: "Brain",
+    summary: "Deteksi dini serangan stroke, pencegahan demensia Alzheimer, serta panduan kesehatan sistem saraf pusat.",
+    fullTitle: "Panduan Lengkap Deteksi Dini Stroke & Menjaga Kesehatan Otak",
+    intro: "Otak adalah pusat kendali seluruh organ tubuh kita. Serangan stroke merupakan kondisi darurat medis di mana waktu adalah penentu utama keselamatan jaringan otak ('Time is Brain'). Mengenali tanda-tanda awal stroke dan menjaga neuroplastisitas otak adalah kunci kualitas hidup yang prima.",
+    warningSigns: [
+      "Metode F.A.S.T: Face (wajah tampak miring sebelah atau senyum tidak simetris)",
+      "Arm weakness: Satu lengan atau tungkai mendadak lemas, sulit diangkat atau baal",
+      "Speech difficulty: Bicara menjadi pelo, cadel, sulit menemukan kata-kata, atau tidak memahami ucapan orang lain",
+      "Time to call emergency: Segera hubungi IGD RS Shilah (021-500-911) dalam periode emas < 4,5 jam",
+      "Sakit kepala hebat yang muncul mendadak ('Thunderclap Headache') tanpa riwayat sebelumnya",
+      "Gangguan penglihatan mendadak pada salah satu atau kedua mata",
+    ],
+    riskFactors: [
+      "Hipertensi kronis yang merusak pembuluh darah mikro di otak",
+      "Fibrilasi atrium atau aritmia jantung yang berisiko membentuk bekuan darah",
+      "Diabetes melitus dan aterosklerosis arteri karotis leher",
+      "Kurangnya stimulasi kognitif dan isolasi sosial pada usia lanjut",
+    ],
+    preventionTips: [
+      "Kontrol tekanan darah secara ketat di bawah 130/80 mmHg dengan pengawasan dokter saraf.",
+      "Asah fungsi kognitif otak secara aktif: membaca buku, mempelajari keterampilan baru, bermain catur atau teka-teki logika.",
+      "Konsumsi makanan kaya antioksidan dan asam lemak omega-3 untuk melindungi sel neuron dari inflamasi.",
+      "Hindari konsumsi alkohol berlebih dan hentikan kebiasaan merokok secara total.",
+    ],
+    recommendedExams: [
+      "MRI Otak 3 Tesla & MRA Pembuluh Darah Otak",
+      "CT Scan Kepala Cepat dengan Protokol Stroke Akut",
+      "Transcranial Doppler (TCD) & USG Dupleks Karotis",
+      "Elektroensefalografi (EEG Digital 32-Channel)",
+      "Evaluasi Kognitif Komprehensif (MoCA-Ina / MMSE)",
+    ],
+    doctorName: "Prof. Dr. dr. Ratna Shilah, Sp.S(K), FANA",
+    doctorSpecialty: "Spesialis Saraf (Neurolog) - Konsultan Neurovaskular & Stroke",
+    doctorImage: "/sites/hopkinsmedicine/images/prof_ratna_shilah.jpeg",
+    doctorDepartment: "Neurologi",
+  },
+  {
+    slug: "kesehatan-anak",
+    title: "Kesehatan Anak (Pediatrik)",
+    category: "Shilah Children's Center",
+    iconName: "Baby",
+    summary: "Panduan pemantauan tumbuh kembang balita, jadwal imunisasi wajib anak, nutrisi tepat pencegah stunting, dan alergi anak.",
+    fullTitle: "Panduan Lengkap Tumbuh Kembang, Nutrisi, & Imunisasi Anak",
+    intro: "1.000 Hari Pertama Kehidupan (sejak janin hingga usia 2 tahun) adalah masa keemasan pembentukan otak dan imunitas buah hati Anda. Pemantauan perkembangan berkala dan pemberian imunisasi lengkap melindungi anak dari berbagai infeksi berbahaya.",
+    warningSigns: [
+      "Belum dapat mengangkat kepala stabil pada usia 4 bulan atau belum dapat duduk mandiri pada usia 9 bulan",
+      "Belum mengoceh (babbling) pada usia 12 bulan atau belum ada kata bermakna pada usia 18 bulan",
+      "Demam tinggi > 39°C yang tidak turun dengan antipiretik atau disertai kejang demam",
+      "Tanda dehidrasi berat: mata cekung, air mata tidak keluar saat menangis, dan tidak buang air kecil > 6 jam",
+      "Napas cepat berbunyi (wheezing/stridor) dengan tarikan dinding dada ke dalam",
+    ],
+    riskFactors: [
+      "Kekurangan asupan protein hewani esensial pada masa MPASI",
+      "Keterlambatan atau kealpaan dalam melengkapi imunisasi dasar dan lanjutan",
+      "Paparan gawai (gadget/screen time) berlebih sebelum usia 2 tahun yang memicu speech delay",
+      "Riwayat alergi atopik dalam keluarga (eksim, asma, rinitis alergi)",
+    ],
+    preventionTips: [
+      "Berikan ASI eksklusif 6 bulan dilanjutkan MPASI kaya mikronutrien (terutama zat besi, zink, dan protein hewani telur/daging/ikan).",
+      "Lengkapi jadwal imunisasi sesuai rekomendasi Ikatan Dokter Anak Indonesia (IDAI) tepat waktu.",
+      "Ajak anak berkomunikasi tatap muka interaktif dan batasi screen time sesuai panduan medis pediatrik.",
+      "Pantau kurva pertumbuhan berat badan, tinggi badan, dan lingkar kepala tiap bulan di buku KIA/KMS.",
+    ],
+    recommendedExams: [
+      "Skrining Tumbuh Kembang Metode Denver II / ASQ-3",
+      "Pemeriksaan Uji Cukit Kulit (Skin Prick Test) Alergi Anak",
+      "Skrining Anemia Defisiensi Besi (Kadar Hb & Feritin Darah)",
+      "Pemeriksaan Skrining Pendengaran (OAE / BERA)",
+      "Konsultasi Nutrisi & Antropometri Khusus Anak",
+    ],
+    doctorName: "dr. Maya Kartika, Sp.A(K), M.Kes",
+    doctorSpecialty: "Spesialis Anak (Pediatri) - Konsultan Tumbuh Kembang & Alergi Imunologi",
+    doctorImage: "/sites/hopkinsmedicine/images/dr_maya_kartika.jpeg",
+    doctorDepartment: "Pediatrik",
+  },
+  {
+    slug: "ortopedi-sendi",
+    title: "Ortopedi & Sendi",
+    category: "Pusat Ortopedi & Tulang Belakang",
+    iconName: "Bone",
+    summary: "Perawatan cedera tulang, nyeri sendi osteoarthritis, penanganan saraf terjepit (HNP), dan postur ergonomis.",
+    fullTitle: "Panduan Lengkap Perawatan Tulang, Sendi, & Penanganan Nyeri Pinggang",
+    intro: "Sistem muskuloskeletal memungkinkan mobilitas aktif tubuh manusia. Nyeri sendi lutut dan sakit pinggang akibat saraf terjepit merupakan keluhan umum yang bila tidak ditangani tepat dapat membatasi aktivitas harian dan menurunkan produktivitas.",
+    warningSigns: [
+      "Nyeri tajam menjalar dari punggung bawah hingga ke tungkai kaki dan telapak kaki (Sciatica)",
+      "Sensasi kebas, mati rasa, atau kesemutan konstan pada area panggul atau jari kaki",
+      "Sendi lutut terasa kaku saat bangun tidur di pagi hari (> 30 menit) atau berbunyi gemeretak disertai bengkak",
+      "Gangguan mendadak pada kontrol buang air besar atau buang air kecil (indikasi darurat Cauda Equina)",
+      "Riwayat jatuh dengan nyeri hebat dan ketidakmampuan menopang berat badan",
+    ],
+    riskFactors: [
+      "Postur duduk membungkuk dalam durasi lama di depan komputer",
+      "Kelebihan berat badan (obesitas) yang menambah beban kompresi pada sendi lutut dan bantalan tulang belakang",
+      "Kurangnya asupan kalsium dan paparan sinar matahari pagi (Vitamin D) memicu osteoporosis",
+      "Teknik mengangkat beban berat yang keliru dengan menekuk pinggang alih-alih lutut",
+    ],
+    preventionTips: [
+      "Jaga postur ergonomis saat bekerja: sesuaikan ketinggian monitor sejajar mata dan sandaran punggung tegak ergonomis.",
+      "Lakukan latihan penguatan otot inti perut dan punggung (core strengthening) serta latihan peregangan fleksibilitas hamstring.",
+      "Pilih olahraga 'low-impact' yang ramah sendi seperti berenang, sepeda statis, atau jalan santai.",
+      "Penuhi kebutuhan kalsium 1.000–1.200 mg/hari dan Vitamin D 800–1.000 IU/hari sesuai anjuran dokter.",
+    ],
+    recommendedExams: [
+      "MRI Tulang Belakang (Lumbosacral / Cervical High-Resolution)",
+      "Pemeriksaan Kepadatan Tulang (Bone Mineral Densitometry / DEXA Scan)",
+      "Rontgen X-Ray Digital Tulang & Sendi Bobot Penuh (Weight-Bearing)",
+      "USG Muskuloskeletal Sendi Lutut & Bahu",
+      "Konsultasi Fisioterapi & Rehabilitasi Medik Terpadu",
+    ],
+    doctorName: "dr. Hendra Pratama, Sp.OT(K), Spine",
+    doctorSpecialty: "Spesialis Bedah Ortopedi & Traumatologi - Konsultan Tulang Belakang & Sendi",
+    doctorImage: "/sites/hopkinsmedicine/images/dr_hendra_pratama.jpeg",
+    doctorDepartment: "Ortopedi",
+  },
+  {
+    slug: "kesehatan-preventif",
+    title: "Kesehatan Preventif",
+    category: "Pusat Skrining & Penyakit Dalam",
+    iconName: "ShieldPlus",
+    summary: "Skrining kesehatan berkala (medical check-up), deteksi dini metabolik & kanker, serta pola makan seimbang.",
+    fullTitle: "Panduan Lengkap Skrining Kesehatan Berkala & Pencegahan Dini Penyakit",
+    intro: "Mencegah selalu lebih baik daripada mengobati. Banyak penyakit kronis serius seperti diabetes melitus, perlemakan hati, dan kanker stadium awal berkembang tanpa gejala nyata ('silent killer'). Skrining preventif teratur memungkinkan penanganan dini dengan tingkat keberhasilan terbaik.",
+    warningSigns: [
+      "Penurunan berat badan drastis tanpa diet atau penyebab yang jelas (> 5 kg dalam 3 bulan)",
+      "Kelelahan ekstrem yang tidak membaik meski sudah cukup beristirahat",
+      "Muncul benjolan yang tidak lazim pada leher, ketiak, atau area tubuh lainnya",
+      "Perubahan pola buang air besar atau buang air kecil yang menetap lebih dari 3 minggu",
+      "Luka yang sulit sembuh atau sering mengalami memar tanpa benturan fisik",
+    ],
+    riskFactors: [
+      "Konsumsi makanan olahan tinggi gula fruktosa, lemak trans, dan daging olahan berpengawet",
+      "Pola hidup santai tanpa aktivitas fisik rutin (sedentary lifestyle)",
+      "Paparan polusi lingkungan, pestisida, atau zat karsinogenik kerja",
+      "Tidak pernah melakukan pemeriksaan darah berkala selama lebih dari 3 tahun",
+    ],
+    preventionTips: [
+      "Lakukan Medical Check-Up (MCU) rutin minimal setahun sekali bagi individu berusia di atas 30 tahun.",
+      "Terapkan piring makan sehat: 50% porsi sayuran dan buah, 25% karbohidrat kompleks, 25% protein rendah lemak.",
+      "Jaga indeks massa tubuh (BMI) dalam batas ideal antara 18,5 - 24,9 kg/m².",
+      "Konsultasikan riwayat penyakit keluarga untuk merencanakan skrining genetik atau penanda tumor preventif.",
+    ],
+    recommendedExams: [
+      "Panel Darah Rutin, Laju Endap Darah & Morfologi Darah Tepi",
+      "Panel Glukosa (Gula Darah Puasa & HbA1c)",
+      "Panel Fungsi Ginjal (Ureum, Kreatinin, e-GFR) & Fungsi Hati (SGOT, SGPT)",
+      "USG Abdomen Lengkap Skrining Organ Dalam",
+      "Pemeriksaan Penanda Tumor (Tumor Marker) Spesifik Organ",
+    ],
+    doctorName: "dr. Dewi Anggraini, Sp.PD-KHOM, FINASIM",
+    doctorSpecialty: "Spesialis Penyakit Dalam - Konsultan Hematologi Onkologi",
+    doctorImage: "/sites/hopkinsmedicine/images/dr_dewi_anggraini.jpeg",
+    doctorDepartment: "Onkologi",
+  },
+  {
+    slug: "kesehatan-mental",
+    title: "Kesehatan Mental",
+    category: "Klinik Kesehatan Mental & Psikosomatis",
+    iconName: "Activity",
+    summary: "Manajemen stres kerja, penanganan kecemasan (anxiety), depresi, dan konsultasi psikologi serta psikiatri profesional.",
+    fullTitle: "Panduan Menjaga Kesehatan Mental & Membangun Ketahanan Psikologis",
+    intro: "Kesehatan fisik dan kesehatan mental saling terhubung erat. Gangguan psikologis yang tidak ditangani dapat memicu berbagai penyakit psikosomatis pada organ fisik, seperti tukak lambung, migrain kronis, dan hipertensi. Meminta bantuan tenaga medis profesional adalah tanda keberanian dan kepedulian pada diri sendiri.",
+    warningSigns: [
+      "Perasaan cemas berlebihan yang menetap dan sulit dikendalikan hampir setiap hari selama berminggu-minggu",
+      "Hilangnya minat atau kesenangan secara menyeluruh pada hal-hal yang sebelumnya disukai (anhedonia)",
+      "Gangguan tidur berat: sulit tidur (insomnia), sering terbangun tengah malam, atau tidur berlebihan tanpa merasa segar",
+      "Serangan panik tiba-tiba disertai sesak napas, jantung berdegup kencang, dan rasa takut kehilangan kendali",
+      "Menarik diri dari pergaulan sosial, keluarga, dan penurunan performa kerja secara signifikan",
+    ],
+    riskFactors: [
+      "Beban kerja berlebih berkepanjangan tanpa istirahat memadai (burnout)",
+      "Mengalami peristiwa traumatis kehilangan orang terkasih atau perubahan hidup drastis",
+      "Ketidakseimbangan neurotransmiter kimiawi di otak atau riwayat gangguan mood genetik",
+      "Kecanduan media sosial yang memicu perbandingan sosial negatif dan rasa kesepian",
+    ],
+    preventionTips: [
+      "Praktikkan mindfulness dan latihan pernapasan diafragma 4-7-8 selama 5–10 menit tiap pagi dan sebelum tidur.",
+      "Bangun batasan tegas antara waktu kerja dan waktu istirahat bersama orang-orang terdekat.",
+      "Rutin berolahraga aerobik ringan karena dapat merangsang pelepasan hormon endorfin dan serotonin pengatur mood.",
+      "Jangan ragu berkonsultasi dengan psikolog klinis atau psikiater saat perasaan cemas atau sedih terasa membebani.",
+    ],
+    recommendedExams: [
+      "Konsultasi Psikologis & Pemeriksaan Skrining Gejala Depresi (PHQ-9)",
+      "Evaluasi Tingkat Kecemasan (GAD-7 Assessment)",
+      "Pemeriksaan Psikosomatis Terpadu Dokter Spesialis",
+      "Program Terapi Perilaku Kognitif (Cognitive Behavioral Therapy / CBT)",
+      "Konseling Manajemen Stres Eksekutif & Terapi Relaksasi Medis",
+    ],
+    doctorName: "Tim Dokter Spesialis Kedokteran Jiwa (Psikiater) & Psikolog Klinis",
+    doctorSpecialty: "Spesialis Kesehatan Jiwa & Layanan Psikosomatis Shilah Medicine",
+    doctorImage: "/sites/hopkinsmedicine/images/prof_ratna_shilah.jpeg",
+    doctorDepartment: "Neurologi",
+  },
+];
