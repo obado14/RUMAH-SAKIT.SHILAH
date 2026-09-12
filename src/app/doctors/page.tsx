@@ -8,6 +8,10 @@ import { Footer } from "@/components/sites/hopkinsmedicine/Footer";
 import { CookieBanner } from "@/components/sites/hopkinsmedicine/CookieBanner";
 import {
   Search,
+  Calendar,
+  Award,
+  GraduationCap,
+  MapPin,
   Stethoscope,
   Filter,
 } from "lucide-react";
@@ -205,64 +209,83 @@ export default function DoctorsPage() {
             </span>
           </div>
 
-          {/* Doctors Grid - Interactive 3:4 Cards */}
+          {/* Doctors Grid */}
           {filteredDoctors.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {filteredDoctors.map((doc) => (
-                <div key={doc.id} className="card doctor-interactive-card group">
-                  {/* Doctor Image - 3:4 initial, transitions to 1:1 on hover */}
-                  {doc.image ? (
-                    <Image
-                      src={doc.image}
-                      alt={doc.name}
-                      width={400}
-                      height={533}
-                      className="doctor-card-img"
-                    />
-                  ) : (
-                    <div className="doctor-card-img bg-blue-50 flex items-center justify-center text-[#002D72]">
-                      <Stethoscope className="w-16 h-16" />
-                    </div>
-                  )}
-
-                  <section>
-                    {/* Doctor Name - Transitions from image overlay to top of section */}
-                    <h2>{doc.name}</h2>
-
-                    {/* Doctor Details - Smoothly fades & translates up */}
-                    <div className="doctor-info space-y-1.5">
-                      <p className="text-xs font-semibold text-[#0077C8] mb-1">
-                        {doc.specialty}
-                      </p>
-                      <p className="text-[12px] text-gray-600 line-clamp-2 leading-relaxed">
-                        <strong className="text-gray-800">Subspesialis:</strong> {doc.subspecialty}
-                      </p>
-                      <p className="text-[11px] text-gray-500 line-clamp-1">
-                        <strong className="text-gray-700">Praktik:</strong> {doc.hospital}
-                      </p>
-                      <p className="text-[11px] text-gray-500 line-clamp-1">
-                        <strong className="text-gray-700">Jadwal:</strong> {doc.schedule}
-                      </p>
-                    </div>
-
-                    {/* Bottom Action Row - Tag + Follow/Appointment Button */}
-                    <div className="doctor-action-row">
-                      <div
-                        className="tag text-xs font-semibold text-[#0077C8] bg-blue-50/90 px-3 py-1 rounded-full border border-blue-100/80 shadow-xs"
-                        aria-label={doc.department}
-                      >
-                        {doc.department}
+                <div
+                  key={doc.id}
+                  className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="flex items-start justify-between gap-4 mb-4">
+                      <div>
+                        <span className="inline-block px-2.5 py-0.5 rounded text-[11px] font-semibold bg-blue-50 text-[#0077C8] border border-blue-100 mb-2">
+                          {doc.department}
+                        </span>
+                        <h3 className="font-serif text-lg sm:text-xl font-bold text-[#111111]">
+                          {doc.name}
+                        </h3>
+                        <p className="text-xs sm:text-sm text-[#0077C8] font-medium mt-0.5">
+                          {doc.specialty}
+                        </p>
                       </div>
-
-                      <Link
-                        href={`/appointments?doctor=${encodeURIComponent(doc.name)}`}
-                        className="doctor-card-btn"
-                        title="Buat Janji Temu dengan Dokter"
-                      >
-                        Janji Temu
-                      </Link>
+                      <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-2 border-blue-200 bg-blue-50 flex items-center justify-center shrink-0 shadow-sm">
+                        {doc.image ? (
+                          <Image
+                            src={doc.image}
+                            alt={doc.name}
+                            fill
+                            className="object-cover object-top"
+                          />
+                        ) : (
+                          <Stethoscope className="w-8 h-8 text-[#002D72]" />
+                        )}
+                      </div>
                     </div>
-                  </section>
+
+                    <div className="space-y-2.5 text-xs text-gray-600 border-t border-gray-100 pt-3">
+                      <div className="flex items-start space-x-2">
+                        <Award className="w-4 h-4 text-[#FFC20E] shrink-0 mt-0.5" />
+                        <span>
+                          <strong className="text-gray-800">Subspesialisasi:</strong> {doc.subspecialty}
+                        </span>
+                      </div>
+                      <div className="flex items-start space-x-2">
+                        <GraduationCap className="w-4 h-4 text-gray-500 shrink-0 mt-0.5" />
+                        <span>
+                          <strong className="text-gray-800">Alumni:</strong> {doc.education}
+                        </span>
+                      </div>
+                      <div className="flex items-start space-x-2">
+                        <MapPin className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
+                        <span>
+                          <strong className="text-gray-800">Lokasi Praktik:</strong> {doc.hospital}
+                        </span>
+                      </div>
+                      <div className="flex items-start space-x-2">
+                        <Calendar className="w-4 h-4 text-[#0077C8] shrink-0 mt-0.5" />
+                        <span>
+                          <strong className="text-gray-800">Jadwal Praktik:</strong> {doc.schedule}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between gap-3">
+                    <Link
+                      href={`/appointments?doctor=${encodeURIComponent(doc.name)}`}
+                      className="flex-1 text-center py-2.5 px-4 bg-[#0077C8] hover:bg-[#005fa3] text-white text-xs font-semibold rounded-md transition-colors shadow-sm"
+                    >
+                      Jadwalkan Janji Temu
+                    </Link>
+                    <Link
+                      href="/about"
+                      className="py-2.5 px-4 bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold rounded-md transition-colors"
+                    >
+                      Detail Profil
+                    </Link>
+                  </div>
                 </div>
               ))}
             </div>
