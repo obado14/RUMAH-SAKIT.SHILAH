@@ -81,12 +81,13 @@ export default function SchoolOfMedicinePage() {
             </div>
 
             <div className="lg:col-span-5 flex justify-center">
-              <div className="relative w-[280px] h-[200px] p-6 bg-gray-50 rounded-xl border border-gray-200 shadow-sm flex items-center justify-center">
+              <div className="relative w-[300px] sm:w-[360px] h-[110px] sm:h-[130px] p-4 bg-white rounded-xl border border-gray-200 shadow-sm flex items-center justify-center">
                 <Image
-                  src="/sites/hopkinsmedicine/images/13_som-logo_png.png"
+                  src="/sites/hopkinsmedicine/images/shilah_som_logo.png"
                   alt="Shilah School of Medicine Logo"
                   fill
-                  className="object-contain p-4"
+                  className="object-contain p-2"
+                  priority
                 />
               </div>
             </div>

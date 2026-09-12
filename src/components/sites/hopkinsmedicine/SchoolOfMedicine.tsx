@@ -39,12 +39,13 @@ export function SchoolOfMedicine() {
 
           {/* Right Column: SOM Logo */}
           <div className="shrink-0 flex items-center justify-center p-4">
-            <div className="relative w-[220px] sm:w-[280px] h-[150px] sm:h-[180px]">
+            <div className="relative w-[240px] sm:w-[300px] h-[85px] sm:h-[105px]">
               <Image
-                src="/sites/hopkinsmedicine/images/13_som-logo_png.png"
+                src="/sites/hopkinsmedicine/images/shilah_som_logo.png"
                 alt="Shilah School of Medicine logo"
                 fill
                 className="object-contain"
+                priority
               />
             </div>
           </div>

@@ -66,7 +66,7 @@ const articles: Article[] = [
     category: "Pendidikan Kedokteran",
     excerpt:
       "Mempersiapkan calon dokter masa depan dengan pemahaman mendalam tentang sekuens genom individu dan terapi selular terdepan.",
-    image: "/sites/hopkinsmedicine/images/13_som-logo_png.png",
+    image: "/sites/hopkinsmedicine/images/shilah_som_logo.png",
   },
   {
     id: "news-06",
@@ -157,12 +157,12 @@ export default function NewsPage() {
                 className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between"
               >
                 <div>
-                  <div className="relative w-full aspect-[16/10] bg-gray-100 overflow-hidden">
+                  <div className="relative w-full aspect-[16/10] bg-gray-100 overflow-hidden flex items-center justify-center">
                     <Image
                       src={art.image}
                       alt={art.title}
                       fill
-                      className="object-cover hover:scale-105 transition-transform duration-300"
+                      className={art.image.includes("logo") ? "object-contain p-4 bg-white" : "object-cover hover:scale-105 transition-transform duration-300"}
                     />
                   </div>
                   <div className="p-5 space-y-2">
