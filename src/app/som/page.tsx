@@ -39,9 +39,9 @@ export default function SchoolOfMedicinePage() {
 
       <main className="flex-1 w-full">
         {/* Hero Section */}
-        <section className="relative w-full text-white py-20 sm:py-32 overflow-hidden">
+        <section className="relative w-full bg-[#00205B] text-white py-20 sm:py-32 overflow-hidden">
           {/* Background Image */}
-          <div className="absolute inset-0 -z-20">
+          <div className="absolute inset-0">
             <Image
               src="/sites/hopkinsmedicine/images/som_hero_bg.jpeg"
               alt="Gedung Shilah School of Medicine"
@@ -52,17 +52,18 @@ export default function SchoolOfMedicinePage() {
           </div>
 
           {/* Premium Blue Overlay */}
-          <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#00205B]/92 via-[#002D72]/88 to-[#00437A]/82" />
-          <div className="absolute inset-0 -z-10 bg-[#001433]/40 mix-blend-multiply" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#001D4A]/92 via-[#002D72]/86 to-[#004B87]/80" />
+          <div className="absolute inset-0 bg-[#001433]/40 mix-blend-multiply" />
 
-          <div className="relative max-w-5xl mx-auto px-4 sm:px-6 text-center">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-white/15 backdrop-blur-md text-white text-xs sm:text-sm font-semibold tracking-wider uppercase mb-5 border border-white/25 shadow-sm">
+          {/* Text Content */}
+          <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md text-white text-xs sm:text-sm font-semibold tracking-wider uppercase mb-5 border border-white/30 shadow-sm">
               Pendidikan & Riset Akademis
             </span>
-            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal mb-6 text-white drop-shadow-md">
+            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal mb-6 text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
               Fakultas Kedokteran Shilah
             </h1>
-            <p className="text-base sm:text-xl text-white/95 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-sm">
+            <p className="text-base sm:text-xl text-white/95 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-[0_1px_4px_rgba(0,0,0,0.4)]">
               Mendidik generasi dokter dan saintis medis masa depan dengan standar keunggulan klinis, etika tinggi, dan dedikasi untuk kemanusiaan.
             </p>
           </div>
