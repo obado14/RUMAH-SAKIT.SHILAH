@@ -38,7 +38,7 @@ const allDoctors: Doctor[] = [
     hospital: "Shilah Central Hospital (Gedung A, Lt. 3)",
     education: "Shilah School of Medicine, Fellowship Interventional Cardiology",
     schedule: "Senin, Rabu, Jumat: 08:30 - 13:00 WIB",
-    image: "/sites/hopkinsmedicine/images/hero_bg.jpg",
+    image: "/sites/hopkinsmedicine/images/dr_adrian_shilah.jpeg",
   },
   {
     id: "prof-ratna",
@@ -230,8 +230,17 @@ export default function DoctorsPage() {
                           {doc.specialty}
                         </p>
                       </div>
-                      <div className="w-16 h-16 rounded-full bg-blue-100/70 border border-blue-200 flex items-center justify-center shrink-0 text-[#002D72]">
-                        <Stethoscope className="w-8 h-8" />
+                      <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-2 border-blue-200 bg-blue-50 flex items-center justify-center shrink-0 shadow-sm">
+                        {doc.image ? (
+                          <Image
+                            src={doc.image}
+                            alt={doc.name}
+                            fill
+                            className="object-cover object-top"
+                          />
+                        ) : (
+                          <Stethoscope className="w-8 h-8 text-[#002D72]" />
+                        )}
                       </div>
                     </div>
 
