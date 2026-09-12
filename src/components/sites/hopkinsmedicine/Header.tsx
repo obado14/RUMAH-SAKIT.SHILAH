@@ -30,31 +30,30 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-white border-b border-[#e2e8f0] shadow-sm">
       {/* Top Main Nav Bar */}
-      <div className="w-full flex items-center justify-between px-4 sm:px-8 py-1 h-[82px] lg:h-[86px] bg-[#002D72] text-white">
+      <div className="w-full flex items-center justify-between px-3 sm:px-8 py-1 h-[68px] sm:h-[82px] lg:h-[86px] bg-[#002D72] text-white">
         {/* Left: Brand Logo */}
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-2 sm:space-x-6 min-w-0">
           <Link
             href="/"
-            className="flex items-center focus:outline-none focus:ring-2 focus:ring-white rounded py-1"
+            className="flex items-center focus:outline-none focus:ring-2 focus:ring-white rounded py-1 shrink-0"
             aria-label="Shilah Medicine Home"
           >
-            <div className="relative w-[194px] h-[70.61px] flex items-center shrink-0">
+            <div className="relative w-[130px] sm:w-[194px] h-[46px] sm:h-[70.61px] flex items-center shrink-0">
               <Image
                 src="/sites/hopkinsmedicine/images/shilah_logo_transparent.png"
                 alt="Shilah Medicine - Kesehatan Anda, Prioritas Kami"
                 width={194}
                 height={71}
-                style={{ width: "194px", height: "70.61px" }}
                 priority
-                className="object-contain object-left"
+                className="object-contain object-left w-full h-full"
               />
             </div>
           </Link>
 
-          {/* Menu Button */}
+          {/* Menu Button (Desktop) */}
           <button
             onClick={toggleMenu}
-            className={`hidden md:flex items-center space-x-2 px-4 py-2 font-medium text-[15px] rounded transition-colors focus:outline-none focus:ring-2 focus:ring-white ${
+            className={`hidden md:flex items-center space-x-2 px-4 py-2 font-medium text-[15px] rounded transition-colors focus:outline-none focus:ring-2 focus:ring-white cursor-pointer ${
               isMenuOpen
                 ? "bg-white text-[#002D72]"
                 : "text-white hover:bg-[#00388d]"
@@ -68,21 +67,21 @@ export function Header() {
         </div>
 
         {/* Right: Actions */}
-        <div className="flex items-center space-x-3 sm:space-x-6">
+        <div className="flex items-center space-x-1.5 sm:space-x-4 md:space-x-6 shrink-0">
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
-            className="md:hidden flex items-center space-x-1.5 px-3 py-1.5 text-sm font-medium text-white hover:bg-[#00388d] rounded focus:outline-none focus:ring-2 focus:ring-white"
+            className="md:hidden flex items-center space-x-1 px-2.5 py-1.5 text-xs font-medium text-white hover:bg-[#00388d] rounded focus:outline-none focus:ring-2 focus:ring-white cursor-pointer"
             aria-label="Toggle navigation menu"
           >
-            <Menu className="w-5 h-5" />
+            <Menu className="w-4 h-4" />
             <span>Menu</span>
           </button>
 
           {/* Search Button */}
           <button
             onClick={toggleSearch}
-            className={`flex items-center space-x-1.5 px-3 py-1.5 text-[15px] font-medium rounded transition-colors focus:outline-none focus:ring-2 focus:ring-white ${
+            className={`flex items-center space-x-1 px-2.5 py-1.5 text-xs sm:text-[15px] font-medium rounded transition-colors focus:outline-none focus:ring-2 focus:ring-white cursor-pointer ${
               isSearchOpen
                 ? "bg-white text-[#002D72]"
                 : "text-white hover:bg-[#00388d]"
@@ -97,18 +96,19 @@ export function Header() {
           {/* MyChart Login */}
           <Link
             href="/mychart"
-            className="flex items-center space-x-1.5 px-3 py-1.5 text-[14px] sm:text-[15px] font-medium text-white hover:bg-[#00388d] rounded border border-white/30 hover:border-white transition-colors"
+            className="flex items-center space-x-1 px-2.5 py-1.5 text-xs sm:text-[15px] font-medium text-white hover:bg-[#00388d] rounded border border-white/30 hover:border-white transition-colors shrink-0"
           >
-            <User className="w-4 h-4" />
-            <span>Masuk MyChart</span>
+            <User className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+            <span className="hidden sm:inline">Masuk </span>
+            <span>MyChart</span>
           </Link>
         </div>
       </div>
 
       {/* Menu Overlay Drawer */}
       {isMenuOpen && (
-        <div className="fixed inset-x-0 top-[82px] lg:top-[86px] bottom-0 z-40 bg-black/60 backdrop-blur-[2px] transition-opacity">
-          <div className="relative w-full max-w-6xl mx-auto bg-white shadow-2xl p-6 sm:p-12 animate-in fade-in slide-in-from-top-4 duration-200">
+        <div className="fixed inset-x-0 top-[68px] sm:top-[82px] lg:top-[86px] bottom-0 z-40 bg-black/60 backdrop-blur-[2px] transition-opacity overflow-y-auto">
+          <div className="relative w-full max-w-6xl mx-auto bg-white shadow-2xl p-5 sm:p-12 animate-in fade-in slide-in-from-top-4 duration-200">
             {/* Close button */}
             <button
               onClick={closeAll}
@@ -246,8 +246,8 @@ export function Header() {
 
       {/* Search Overlay Drawer */}
       {isSearchOpen && (
-        <div className="fixed inset-x-0 top-[82px] lg:top-[86px] bottom-0 z-40 bg-black/60 backdrop-blur-[2px] transition-opacity">
-          <div className="relative w-full max-w-6xl mx-auto bg-white shadow-2xl p-8 sm:p-12 animate-in fade-in slide-in-from-top-4 duration-200">
+        <div className="fixed inset-x-0 top-[68px] sm:top-[82px] lg:top-[86px] bottom-0 z-40 bg-black/60 backdrop-blur-[2px] transition-opacity overflow-y-auto">
+          <div className="relative w-full max-w-6xl mx-auto bg-white shadow-2xl p-6 sm:p-12 animate-in fade-in slide-in-from-top-4 duration-200">
             <button
               onClick={closeAll}
               className="absolute top-6 right-6 p-2 text-gray-500 hover:text-black hover:bg-gray-100 rounded-full transition-colors"

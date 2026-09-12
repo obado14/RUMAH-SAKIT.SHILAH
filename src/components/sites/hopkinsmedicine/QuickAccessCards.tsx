@@ -38,16 +38,16 @@ const actionItems: QuickActionItem[] = [
 
 export function QuickAccessCards() {
   return (
-    <section className="w-full max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12 -mt-4">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+    <section className="w-full max-w-6xl mx-auto px-3.5 sm:px-6 py-6 sm:py-12 -mt-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6">
         {actionItems.map((item, idx) => (
           <Link
             key={idx}
             href={item.href}
-            className="group relative flex flex-col items-center justify-between p-6 sm:p-8 bg-white border border-[#d1d5db] rounded shadow-[0_2px_8px_rgba(0,0,0,0.06)] hover:shadow-lg transition-all duration-200 hover:-translate-y-0.5"
+            className="group relative flex flex-col items-center justify-between p-3.5 sm:p-6 md:p-8 bg-white border border-[#d1d5db] rounded-xl sm:rounded shadow-[0_2px_8px_rgba(0,0,0,0.06)] hover:shadow-lg transition-all duration-200 hover:-translate-y-0.5"
           >
             {/* Top / Center: Blue Icon */}
-            <div className="relative w-20 h-16 sm:w-28 sm:h-20 mb-4 flex items-center justify-center">
+            <div className="relative w-14 h-12 sm:w-24 sm:h-18 mb-2 sm:mb-4 flex items-center justify-center">
               <Image
                 src={item.iconSrc}
                 alt={item.iconAlt}
@@ -58,12 +58,12 @@ export function QuickAccessCards() {
             </div>
 
             {/* Title */}
-            <h3 className="font-serif text-lg sm:text-xl text-center font-bold text-[#111111] group-hover:text-[#0077C8] transition-colors">
+            <h3 className="font-serif text-xs sm:text-base md:text-xl text-center font-bold text-[#111111] group-hover:text-[#0077C8] transition-colors leading-snug">
               {item.title}
             </h3>
 
             {/* Bottom Right Corner Arrow */}
-            <div className="absolute bottom-3 right-3 text-gray-400 group-hover:text-[#0077C8] transition-colors">
+            <div className="hidden sm:block absolute bottom-3 right-3 text-gray-400 group-hover:text-[#0077C8] transition-colors">
               <svg
                 viewBox="0 0 24 24"
                 className="w-5 h-5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
