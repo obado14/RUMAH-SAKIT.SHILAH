@@ -150,7 +150,7 @@ export function Header() {
                   </li>
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/about"
+                      href="/about"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >

@@ -22,10 +22,10 @@ export function SchoolOfMedicine() {
 
             <div className="flex flex-wrap items-center gap-4">
               <Link
-                href="https://www.hopkinsmedicine.org/som"
+                href="/about"
                 className="inline-flex items-center space-x-2 px-6 py-3 border border-[#111111] text-[#111111] font-medium text-[15px] rounded hover:bg-white transition-colors"
               >
-                <span>About the School of Medicine</span>
+                <span>About Shilah School of Medicine</span>
                 <ChevronRight className="w-4 h-4" />
               </Link>
 
