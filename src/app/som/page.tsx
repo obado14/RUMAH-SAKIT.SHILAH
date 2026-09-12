@@ -39,15 +39,30 @@ export default function SchoolOfMedicinePage() {
 
       <main className="flex-1 w-full">
         {/* Hero Section */}
-        <section className="relative w-full bg-[#002D72] text-white py-16 sm:py-24">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
-            <span className="inline-block px-4 py-1 rounded-full bg-white/10 text-white text-xs sm:text-sm font-semibold tracking-wider uppercase mb-4 border border-white/20">
+        <section className="relative w-full text-white py-20 sm:py-32 overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0 -z-20">
+            <Image
+              src="/sites/hopkinsmedicine/images/som_hero_bg.jpeg"
+              alt="Gedung Shilah School of Medicine"
+              fill
+              priority
+              className="object-cover object-center"
+            />
+          </div>
+
+          {/* Premium Blue Overlay */}
+          <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#00205B]/92 via-[#002D72]/88 to-[#00437A]/82" />
+          <div className="absolute inset-0 -z-10 bg-[#001433]/40 mix-blend-multiply" />
+
+          <div className="relative max-w-5xl mx-auto px-4 sm:px-6 text-center">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-white/15 backdrop-blur-md text-white text-xs sm:text-sm font-semibold tracking-wider uppercase mb-5 border border-white/25 shadow-sm">
               Pendidikan & Riset Akademis
             </span>
-            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal mb-6">
+            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal mb-6 text-white drop-shadow-md">
               Fakultas Kedokteran Shilah
             </h1>
-            <p className="text-base sm:text-xl text-white/90 max-w-2xl mx-auto font-light leading-relaxed">
+            <p className="text-base sm:text-xl text-white/95 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-sm">
               Mendidik generasi dokter dan saintis medis masa depan dengan standar keunggulan klinis, etika tinggi, dan dedikasi untuk kemanusiaan.
             </p>
           </div>
