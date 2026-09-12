@@ -15,7 +15,7 @@ import {
 export default function AppointmentsPage() {
   const [formData, setFormData] = useState({
     polyclinic: "Kardiologi & Jantung",
-    doctor: "dr. Adrian Shilah, Sp.JP(K)",
+    doctor: "dr. Adrian Shilah, Sp.JP(K), FIHA",
     date: "",
     session: "Pagi (08:00 - 12:00)",
     patientName: "",
@@ -25,6 +25,19 @@ export default function AppointmentsPage() {
     paymentType: "Asuransi Swasta / Umum",
     notes: "",
   });
+
+  React.useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const docParam = params.get("doctor");
+      if (docParam) {
+        setFormData((prev) => ({
+          ...prev,
+          doctor: docParam,
+        }));
+      }
+    }
+  }, []);
 
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [bookingCode, setBookingCode] = useState("");
@@ -176,11 +189,12 @@ export default function AppointmentsPage() {
                         className="w-full px-3.5 py-2.5 text-sm border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-[#0077C8]"
                         required
                       >
-                        <option value="dr. Adrian Shilah, Sp.JP(K)">dr. Adrian Shilah, Sp.JP(K) (Kardiologi)</option>
-                        <option value="Prof. Dr. dr. Ratna Shilah, Sp.S(K)">Prof. Dr. dr. Ratna Shilah, Sp.S(K) (Saraf)</option>
-                        <option value="dr. Maya Kartika, Sp.A(K)">dr. Maya Kartika, Sp.A(K) (Anak)</option>
-                        <option value="dr. Hendra Pratama, Sp.OT(K)">dr. Hendra Pratama, Sp.OT(K) (Ortopedi)</option>
-                        <option value="dr. Dewi Anggraini, Sp.PD-KHOM">dr. Dewi Anggraini, Sp.PD-KHOM (Onkologi)</option>
+                        <option value="dr. Adrian Shilah, Sp.JP(K), FIHA">dr. Adrian Shilah, Sp.JP(K), FIHA (Kardiologi)</option>
+                        <option value="Prof. Dr. dr. Ratna Shilah, Sp.S(K), FANA">Prof. Dr. dr. Ratna Shilah, Sp.S(K), FANA (Saraf / Neurologi)</option>
+                        <option value="dr. Maya Kartika, Sp.A(K), M.Kes">dr. Maya Kartika, Sp.A(K), M.Kes (Anak / Pediatrik)</option>
+                        <option value="dr. Hendra Pratama, Sp.OT(K), Spine">dr. Hendra Pratama, Sp.OT(K), Spine (Bedah Ortopedi)</option>
+                        <option value="dr. Dewi Anggraini, Sp.PD-KHOM, FINASIM">dr. Dewi Anggraini, Sp.PD-KHOM, FINASIM (Onkologi)</option>
+                        <option value="dr. Farhan Gunawan, Sp.OG(K)-FER">dr. Farhan Gunawan, Sp.OG(K)-FER (Kebidanan & Kandungan)</option>
                         <option value="Dokter Pertama yang Tersedia">Dokter Pertama yang Tersedia (Jadwal Tercepat)</option>
                       </select>
                     </div>
