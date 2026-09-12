@@ -51,19 +51,19 @@ export default function SchoolOfMedicinePage() {
             />
           </div>
 
-          {/* Premium Blue Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#001D4A]/92 via-[#002D72]/86 to-[#004B87]/80" />
-          <div className="absolute inset-0 bg-[#001433]/40 mix-blend-multiply" />
+          {/* Elegant Translucent Blue Overlay - Balanced & Clear */}
+          <div className="absolute inset-0 bg-[#002D72]/40" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#001D4A]/70 via-transparent to-black/35" />
 
           {/* Text Content */}
           <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md text-white text-xs sm:text-sm font-semibold tracking-wider uppercase mb-5 border border-white/30 shadow-sm">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-black/30 backdrop-blur-md text-white text-xs sm:text-sm font-semibold tracking-wider uppercase mb-5 border border-white/30 shadow-md">
               Pendidikan & Riset Akademis
             </span>
-            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal mb-6 text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
+            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal mb-6 text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)]">
               Fakultas Kedokteran Shilah
             </h1>
-            <p className="text-base sm:text-xl text-white/95 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-[0_1px_4px_rgba(0,0,0,0.4)]">
+            <p className="text-base sm:text-xl text-white max-w-2xl mx-auto font-normal leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.85)]">
               Mendidik generasi dokter dan saintis medis masa depan dengan standar keunggulan klinis, etika tinggi, dan dedikasi untuk kemanusiaan.
             </p>
           </div>
