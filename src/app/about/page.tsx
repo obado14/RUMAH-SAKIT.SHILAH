@@ -20,18 +20,31 @@ export default function AboutPage() {
 
       <main className="flex-1 w-full">
         {/* Hero Section */}
-        <section className="relative w-full bg-[#002D72] text-white py-16 sm:py-24 overflow-hidden">
-          {/* Subtle Background Pattern */}
-          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px]" />
-          
-          <div className="relative max-w-5xl mx-auto px-4 sm:px-6 text-center">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-white/10 text-white text-xs sm:text-sm font-semibold tracking-wider uppercase mb-4 backdrop-blur-sm border border-white/20">
+        <section className="relative w-full bg-[#00205B] text-white py-20 sm:py-32 overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0">
+            <Image
+              src="/sites/hopkinsmedicine/images/about_hero_bg.png"
+              alt="Klinik dan Layanan Medis Shilah Medicine"
+              fill
+              priority
+              className="object-cover object-center"
+            />
+          </div>
+
+          {/* Elegant Translucent Blue Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#001D4A]/85 via-[#002D72]/60 to-[#001D4A]/80" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#001433]/75 via-transparent to-black/35" />
+
+          {/* Foreground Content */}
+          <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-black/30 backdrop-blur-md text-white text-xs sm:text-sm font-semibold tracking-wider uppercase mb-5 border border-white/30 shadow-md">
               Tentang Kami
             </span>
-            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal tracking-tight mb-6">
+            <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal tracking-tight mb-6 text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)]">
               Tentang Shilah Medicine
             </h1>
-            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto font-light leading-relaxed">
+            <p className="text-lg sm:text-xl text-white max-w-2xl mx-auto font-normal leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.85)]">
               Kesehatan Anda, Prioritas Kami. Berdedikasi menghadirkan layanan kesehatan unggul, terpercaya, dan berstandar internasional.
             </p>
           </div>
