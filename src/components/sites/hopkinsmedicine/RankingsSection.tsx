@@ -12,21 +12,21 @@ interface RankingCard {
 
 const rankingCards: RankingCard[] = [
   {
-    title: "#1 in Maryland, #1 in Florida",
+    title: "Peringkat #1 Layanan Kesehatan Anak",
     description:
-      "Shilah Children's Center and Shilah Hospital are ranked #1 in their respective states on U.S. News & World Report's 2025-26 Best Children's Hospitals list.",
+      "Pusat Kesehatan Anak Shilah dan Rumah Sakit Shilah dianugerahi peringkat #1 dalam daftar Rumah Sakit Terbaik dengan standar mutu perawatan klinis dan keselamatan pasien tertinggi.",
     imageSrc:
       "/sites/hopkinsmedicine/images/5_peds-usnews-25-26-640-336-3_jpg.png",
-    imageAlt: "Shilah Children's Center ranking achievement",
-    href: "https://www.hopkinsmedicine.org/us-news-pediatric",
+    imageAlt: "Pencapaian prestasi peringkat Shilah Children's Center",
+    href: "/about",
   },
   {
-    title: "Top Ranked",
+    title: "Rumah Sakit Unggulan Berstandar Internasional",
     description:
-      "Three Shilah member hospitals — The Shilah Hospital, Sibley Memorial Hospital and Suburban Hospital — were recognized in U.S. News & World Report's 2026–27 Best Hospitals list.",
+      "Jaringan rumah sakit Shilah Medicine diakui secara luas atas keunggulan spesialisasi medis, teknologi bedah mutakhir, serta dedikasi penelitian kedokteran berkelanjutan.",
     imageSrc: "/sites/hopkinsmedicine/images/6_us-news-hospital_jpg.png",
-    imageAlt: "The Shilah Hospital Top Ranked in the Nation",
-    href: "https://www.hopkinsmedicine.org/usnews",
+    imageAlt: "Rumah Sakit Shilah Terakreditasi Paripurna",
+    href: "/about",
   },
 ];
 

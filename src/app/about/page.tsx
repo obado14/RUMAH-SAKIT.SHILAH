@@ -8,7 +8,7 @@ import { ShieldCheck, HeartPulse, Award, Users, ChevronRight, Calendar } from "l
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Shilah Medicine - Kesehatan Anda, Prioritas Kami",
+  title: "Tentang Kami | Shilah Medicine - Kesehatan Anda, Prioritas Kami",
   description:
     "Pelajari lebih lanjut tentang visi, misi, nilai-nilai, dan dedikasi Shilah Medicine dalam memberikan pelayanan kesehatan terbaik dan terpercaya.",
 };
@@ -29,7 +29,7 @@ export default function AboutPage() {
               Tentang Kami
             </span>
             <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal tracking-tight mb-6">
-              About Shilah Medicine
+              Tentang Shilah Medicine
             </h1>
             <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto font-light leading-relaxed">
               Kesehatan Anda, Prioritas Kami. Berdedikasi menghadirkan layanan kesehatan unggul, terpercaya, dan berstandar internasional.
@@ -168,7 +168,7 @@ export default function AboutPage() {
                 <ChevronRight className="w-4 h-4" />
               </Link>
               <Link
-                href="/"
+                href="/appointments"
                 className="inline-flex items-center space-x-2 px-6 py-3 border border-[#111111] text-[#111111] hover:bg-white font-medium text-[15px] rounded transition-colors"
               >
                 <Calendar className="w-4 h-4" />

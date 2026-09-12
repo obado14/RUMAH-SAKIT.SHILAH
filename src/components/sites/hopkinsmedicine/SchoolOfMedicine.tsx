@@ -11,13 +11,11 @@ export function SchoolOfMedicine() {
           {/* Left Column */}
           <div className="flex-1">
             <h2 className="font-serif text-2xl sm:text-3xl font-normal text-[#111111] mb-3">
-              Shilah School of Medicine
+              Fakultas Kedokteran Shilah
             </h2>
             <div className="w-12 h-0.5 bg-[#d1d5db] mb-5" />
             <p className="text-[15px] sm:text-[16px] text-[#4b5563] leading-relaxed mb-8">
-              The Shilah University School of Medicine consistently ranks
-              among the nation&apos;s very best in education. Learn more about our
-              programs and how to apply.
+              Fakultas Kedokteran Shilah University secara konsisten menjadi rujukan pendidikan dan inovasi medis terbaik. Dapatkan informasi mengenai program sarjana kedokteran, pendidikan dokter spesialis, serta riset klinis unggulan kami.
             </p>
 
             <div className="flex flex-wrap items-center gap-4">
@@ -25,15 +23,15 @@ export function SchoolOfMedicine() {
                 href="/about"
                 className="inline-flex items-center space-x-2 px-6 py-3 border border-[#111111] text-[#111111] font-medium text-[15px] rounded hover:bg-white transition-colors"
               >
-                <span>About Shilah School of Medicine</span>
+                <span>Tentang Fakultas Kedokteran Shilah</span>
                 <ChevronRight className="w-4 h-4" />
               </Link>
 
               <Link
-                href="https://www.hopkinsmedicine.org/som/education-programs"
+                href="/som"
                 className="inline-flex items-center space-x-1.5 text-[#0077C8] hover:underline font-medium text-[15px] px-2 py-3"
               >
-                <span>Explore programs</span>
+                <span>Jelajahi program studi</span>
                 <ChevronRight className="w-4 h-4" />
               </Link>
             </div>

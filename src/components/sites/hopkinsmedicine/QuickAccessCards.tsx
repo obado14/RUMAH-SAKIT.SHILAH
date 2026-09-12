@@ -11,28 +11,28 @@ interface QuickActionItem {
 
 const actionItems: QuickActionItem[] = [
   {
-    title: "Doctors",
-    href: "https://www.hopkinsmedicine.org/profiles",
+    title: "Dokter Spesialis",
+    href: "/doctors",
     iconSrc: "/sites/hopkinsmedicine/images/1_stethoscope-blue_png.png",
-    iconAlt: "Illustration of a stethoscope.",
+    iconAlt: "Ilustrasi stetoskop dokter spesialis",
   },
   {
-    title: "Locations",
-    href: "https://www.hopkinsmedicine.org/patient-care/locations",
+    title: "Lokasi & Rumah Sakit",
+    href: "/locations",
     iconSrc: "/sites/hopkinsmedicine/images/2_location-blue_png.png",
-    iconAlt: "Location map pin icon",
+    iconAlt: "Ikon penanda lokasi rumah sakit dan klinik",
   },
   {
-    title: "Appointments",
-    href: "https://www.hopkinsmedicine.org/patient-care/johns-hopkins-medicine-request-appointment",
+    title: "Jadwal Janji Temu",
+    href: "/appointments",
     iconSrc: "/sites/hopkinsmedicine/images/3_appointment-blue_png.png",
-    iconAlt: "Appointment calendar icon",
+    iconAlt: "Ikon kalender janji temu dokter",
   },
   {
-    title: "MyChart",
-    href: "https://www.hopkinsmedicine.org/mychart/",
+    title: "Portal MyChart",
+    href: "/mychart",
     iconSrc: "/sites/hopkinsmedicine/images/4_mychart-blue_png.png",
-    iconAlt: "blue mychart icon",
+    iconAlt: "Ikon rekam medis pasien MyChart",
   },
 ];
 

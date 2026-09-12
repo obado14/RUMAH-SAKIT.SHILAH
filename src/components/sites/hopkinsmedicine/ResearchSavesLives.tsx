@@ -12,39 +12,36 @@ interface StoryCard {
 const stories: StoryCard[] = [
   {
     title:
-      "Two Shilah innovators honored for advancing prostate cancer detection",
+      "Dua Inovator Medis Shilah Meraih Penghargaan atas Deteksi Dini Kanker Prostat",
     imageSrc: "/sites/hopkinsmedicine/images/7_dannals_pomper_jpg.png",
-    imageAlt: "Robert Dannals, Martin Pomper receiving innovator award",
-    href: "https://hub.jhu.edu/2026/06/18/dannals-pomper-bayh-dole-innovator-award/",
+    imageAlt: "Peneliti Shilah menerima penghargaan inovator riset medis",
+    href: "/research",
   },
   {
-    title: "A lifetime of care",
+    title: "Dedikasi Sepanjang Hayat dalam Pelayanan & Terapi Penyakit Darah",
     imageSrc: "/sites/hopkinsmedicine/images/8_audrey_smith-copy_jpg.png",
-    imageAlt: "Audrey Smith smiling warmly",
-    href: "https://hub.jhu.edu/2026/06/17/decades-of-progress-in-sickle-cell-treatment/",
+    imageAlt: "Pasien tersenyum hangat setelah perawatan di Shilah",
+    href: "/news",
   },
   {
-    title: "Read more stories",
+    title: "Jelajahi Cerita Riset Penyelamat Nyawa Lainnya",
     imageSrc: "/sites/hopkinsmedicine/images/9_rsl-640_jpg.png",
-    imageAlt: "Research saves lives logo graphic",
-    href: "https://hub.jhu.edu/research-saves-lives/",
+    imageAlt: "Grafik logo Riset Menyelamatkan Nyawa Shilah Medicine",
+    href: "/research",
   },
 ];
 
 export function ResearchSavesLives() {
   return (
     <section className="w-full max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
-      {/* Outer Framed Box with Hopkins Navy Border */}
+      {/* Outer Framed Box with Navy Border */}
       <div className="border-[3px] border-[#002D72] p-6 sm:p-10 rounded-sm">
         <h2 className="font-serif text-2xl sm:text-3xl lg:text-[34px] font-normal text-center text-[#222222] mb-4">
-          Research Saves Lives
+          Riset Medis Menyelamatkan Kehidupan
         </h2>
 
         <p className="text-[15px] sm:text-[16px] text-center text-[#4b5563] max-w-3xl mx-auto mb-8 leading-relaxed">
-          Without research—at Shilah and at thousands of other
-          universities, medical schools, and research institutions across the
-          nation—scientific breakthroughs suffer, and the lifesaving treatments of
-          tomorrow are at risk.
+          Melalui penelitian berkelanjutan di Shilah Medicine bersama institusi akademik terkemuka, terobosan ilmiah terus dihadirkan demi menciptakan terapi dan pengobatan penyelamat nyawa bagi generasi masa depan.
         </p>
 
         {/* 3 Story Cards Grid */}

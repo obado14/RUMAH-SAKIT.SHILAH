@@ -9,20 +9,20 @@ interface FurtherLink {
 
 const readingLinks: FurtherLink[] = [
   {
-    title: "Publications",
-    href: "https://www.hopkinsmedicine.org/news/publications",
+    title: "Publikasi Ilmiah",
+    href: "/news",
   },
   {
-    title: "Health Information",
-    href: "https://www.hopkinsmedicine.org/health",
+    title: "Informasi Kesehatan",
+    href: "/health",
   },
   {
-    title: "Newsroom",
-    href: "https://www.hopkinsmedicine.org/news/newsroom",
+    title: "Ruang Berita Medis",
+    href: "/news",
   },
   {
-    title: "E-Newsletters",
-    href: "https://www.hopkinsmedicine.org/news/e-newsletters",
+    title: "Buletin & Artikel Sehat",
+    href: "/news",
   },
 ];
 
@@ -32,7 +32,7 @@ export function FurtherReading() {
       {/* Header with Divider */}
       <div className="text-center mb-8">
         <span className="text-xs sm:text-sm font-semibold tracking-widest text-[#4b5563] uppercase">
-          Further Reading
+          Bacaan & Publikasi Terkait
         </span>
         <div className="w-16 h-0.5 bg-[#d1d5db] mx-auto mt-2" />
       </div>

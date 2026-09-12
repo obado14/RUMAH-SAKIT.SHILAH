@@ -40,19 +40,17 @@ export function CookieBanner() {
 
           <div className="space-y-1 text-sm text-[#333333]">
             <h4 className="font-bold text-base text-[#111111]">
-              Cookie Preferences
+              Preferensi Cookie & Privasi
             </h4>
             <p className="leading-relaxed">
-              By clicking &ldquo;Accept All Cookies&rdquo;, you agree to storing
-              cookies on your device to enhance your browsing experience, provide
-              website traffic analytics, and assist in our marketing efforts. You
-              may also customize your cookie settings at any time or learn more
-              about how we use cookies by visiting our{" "}
+              Dengan mengklik &ldquo;Setujui Semua Cookie&rdquo;, Anda menyetujui penyimpanan
+              cookie di perangkat Anda untuk mengoptimalkan pengalaman bernavigasi, menganalisis
+              lalu lintas situs, dan membantu penyempurnaan layanan kesehatan kami. Pelajari selengkapnya melalui{" "}
               <Link
-                href="https://www.hopkinsmedicine.org/privacy-statement"
+                href="/privacy"
                 className="text-[#0077C8] underline font-medium"
               >
-                privacy statement
+                pernyataan privasi
               </Link>
               .
             </p>
@@ -65,13 +63,13 @@ export function CookieBanner() {
             onClick={() => setIsVisible(false)}
             className="text-sm font-semibold text-[#002D72] hover:underline px-3 py-2"
           >
-            Cookies Settings
+            Pengaturan Cookie
           </button>
           <button
             onClick={handleAccept}
             className="px-6 py-2.5 bg-[#002D72] hover:bg-[#001f52] text-white font-semibold text-sm rounded shadow-sm transition-colors"
           >
-            Accept All Cookies
+            Setujui Semua Cookie
           </button>
         </div>
       </div>

@@ -12,24 +12,24 @@ interface NewsItem {
 
 const newsItems: NewsItem[] = [
   {
-    title: "Obsessive-Compulsive Disorder (OCD) in Children",
+    title: "Mengenali Gejala Gangguan Obsesif-Kompulsif (OCD) pada Anak Sejak Dini",
     imageSrc: "/sites/hopkinsmedicine/images/10_ocd-children_jpg.png",
-    imageAlt: "Young girl reads her phone anxiously, her hand to her forehead",
-    href: "https://www.hopkinsmedicine.org/health/conditions-and-diseases/obsessive-compulsive-disorder-ocd-in-children",
+    imageAlt: "Anak perempuan membaca ponsel dengan cemas memegang kening",
+    href: "/health",
   },
   {
-    title: "Fantastic Voyagers",
+    title: "Fantastic Voyagers: Robot Mikroskopis Penjelajah Pembuluh Darah",
     imageSrc:
       "/sites/hopkinsmedicine/images/11_microgrippers-illustration_jpg.png",
     imageAlt:
-      "Illustrated therapeutic grippers with six prongs, racing through a blood vessel",
-    href: "https://www.hopkinsmedicine.org/news/articles/2025/05/fantastic-voyagers",
+      "Ilustrasi mikrogripper terapi navigasi dalam pembuluh darah tubuh manusia",
+    href: "/news",
   },
   {
-    title: "A Digital 'Twin' for Individualized Cardiology",
+    title: "Digital 'Twin' Jantung untuk Presisi Terapi Kardiovaskular Masa Depan",
     imageSrc: "/sites/hopkinsmedicine/images/12_digital-twin-heart_jpg.png",
-    imageAlt: "Model heart with a digital sketch double",
-    href: "https://www.hopkinsmedicine.org/news/articles/2025/05/a-digital-twin-for-individualized-cardiology",
+    imageAlt: "Model replika digital organ jantung 3D",
+    href: "/news",
   },
 ];
 
@@ -37,7 +37,7 @@ export function NewsFeatures() {
   return (
     <section className="w-full max-w-5xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
       <h2 className="font-serif text-2xl sm:text-3xl lg:text-[34px] font-normal text-center text-[#222222] mb-8">
-        News and Features
+        Berita & Artikel Terkini
       </h2>
 
       {/* 3 News Cards Grid */}
@@ -86,10 +86,10 @@ export function NewsFeatures() {
       {/* See More Stories Button */}
       <div className="text-center">
         <Link
-          href="https://www.hopkinsmedicine.org/news"
+          href="/news"
           className="inline-flex items-center space-x-2 px-6 py-2.5 bg-[#e9ecef] hover:bg-[#dee2e6] text-[#222222] font-medium text-[15px] rounded border border-[#ced4da] transition-colors"
         >
-          <span>See more stories</span>
+          <span>Lihat berita selengkapnya</span>
           <ChevronRight className="w-4 h-4 text-[#4b5563]" />
         </Link>
       </div>

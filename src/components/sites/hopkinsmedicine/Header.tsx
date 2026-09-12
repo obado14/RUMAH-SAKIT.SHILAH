@@ -3,9 +3,11 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Search, Menu, X, User } from "lucide-react";
 
 export function Header() {
+  const router = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -89,16 +91,16 @@ export function Header() {
             aria-label="Open search form"
           >
             <Search className="w-4 h-4 sm:w-5 sm:h-5" />
-            <span className="hidden sm:inline">Search</span>
+            <span className="hidden sm:inline">Pencarian</span>
           </button>
 
           {/* MyChart Login */}
           <Link
-            href="https://www.hopkinsmedicine.org/patient-care/mychart"
+            href="/mychart"
             className="flex items-center space-x-1.5 px-3 py-1.5 text-[14px] sm:text-[15px] font-medium text-white hover:bg-[#00388d] rounded border border-white/30 hover:border-white transition-colors"
           >
             <User className="w-4 h-4" />
-            <span>MyChart Login</span>
+            <span>Masuk MyChart</span>
           </Link>
         </div>
       </div>
@@ -111,7 +113,7 @@ export function Header() {
             <button
               onClick={closeAll}
               className="absolute top-6 right-6 p-2 text-gray-500 hover:text-black hover:bg-gray-100 rounded-full transition-colors"
-              aria-label="Close menu"
+              aria-label="Tutup menu"
             >
               <X className="w-6 h-6" />
             </button>
@@ -123,29 +125,29 @@ export function Header() {
                 <ul className="space-y-3.5 text-[18px] sm:text-[21px] text-[#0077C8] font-normal">
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/health"
+                      href="/health"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      Health
+                      Informasi Kesehatan
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/som"
+                      href="/som"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      School of Medicine
+                      Fakultas Kedokteran
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/"
+                      href="/"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      Shilah Medicine Home
+                      Beranda Shilah Medicine
                     </Link>
                   </li>
                   <li>
@@ -154,25 +156,25 @@ export function Header() {
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      About
+                      Tentang Kami
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/patient-care"
+                      href="/patient-care"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      Patient Care
+                      Layanan Pasien
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/research"
+                      href="/research"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      Research
+                      Riset & Penelitian
                     </Link>
                   </li>
                 </ul>
@@ -183,56 +185,56 @@ export function Header() {
                 <ul className="space-y-3.5 text-[18px] sm:text-[21px] text-[#0077C8] font-normal">
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/patient-care/mychart"
+                      href="/mychart"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      MyChart
+                      Portal Pasien MyChart
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/patient-care/johns-hopkins-medicine-request-appointment"
+                      href="/appointments"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      Schedule an Appointment
+                      Jadwalkan Janji Temu
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/profiles"
+                      href="/doctors"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      Find a Doctor
+                      Cari Dokter Spesialis
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/clinical-trials"
+                      href="/clinical-trials"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      Find a Clinical Trial
+                      Uji Coba Klinis
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/patient-care/patients-visitors/billing-insurance/pay-bill"
+                      href="/billing"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      Pay Your Bill
+                      Bayar Tagihan Medis
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://www.hopkinsmedicine.org/employment"
+                      href="/employment"
                       onClick={closeAll}
                       className="hover:underline hover:text-[#002D72] transition-colors"
                     >
-                      Employment
+                      Karir & Lowongan
                     </Link>
                   </li>
                 </ul>
@@ -249,7 +251,7 @@ export function Header() {
             <button
               onClick={closeAll}
               className="absolute top-6 right-6 p-2 text-gray-500 hover:text-black hover:bg-gray-100 rounded-full transition-colors"
-              aria-label="Close search"
+              aria-label="Tutup pencarian"
             >
               <X className="w-6 h-6" />
             </button>
@@ -258,9 +260,8 @@ export function Header() {
               onSubmit={(e) => {
                 e.preventDefault();
                 if (searchQuery.trim()) {
-                  window.location.href = `https://www.hopkinsmedicine.org/search?q=${encodeURIComponent(
-                    searchQuery
-                  )}`;
+                  closeAll();
+                  router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
                 }
               }}
               className="space-y-4 max-w-2xl"
@@ -269,7 +270,7 @@ export function Header() {
                 htmlFor="site-search"
                 className="block text-sm font-bold tracking-wider text-gray-800 uppercase"
               >
-                Search
+                Pencarian Layanan & Dokter
               </label>
               <div className="flex flex-col sm:flex-row gap-3">
                 <input
@@ -277,7 +278,7 @@ export function Header() {
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search by keyword or a provider's name"
+                  placeholder="Cari berdasarkan kata kunci, nama dokter, atau spesialisasi..."
                   className="flex-1 px-4 py-3 text-base border border-gray-400 rounded focus:outline-none focus:ring-2 focus:ring-[#0077C8] focus:border-[#0077C8]"
                   autoFocus
                 />
@@ -285,7 +286,7 @@ export function Header() {
                   type="submit"
                   className="px-8 py-3 bg-[#0077C8] hover:bg-[#005fa3] text-white font-medium text-base rounded transition-colors"
                 >
-                  Search
+                  Cari
                 </button>
               </div>
             </form>

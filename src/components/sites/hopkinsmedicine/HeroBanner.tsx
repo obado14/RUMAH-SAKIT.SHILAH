@@ -8,20 +8,23 @@ export function HeroBanner() {
       <div className="relative w-full h-[260px] sm:h-[340px] md:h-[420px] lg:h-[480px]">
         <Image
           src="/sites/hopkinsmedicine/images/hero_bg.jpg"
-          alt="Hands holding with care and compassion"
+          alt="Pelayanan medis penuh kasih dan kepedulian di Shilah Medicine"
           fill
           priority
           className="object-cover object-center"
         />
 
         {/* Subtle dark gradient overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-black/30" />
 
         {/* Title Overlay */}
-        <div className="absolute inset-0 flex items-center justify-center p-4">
-          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-normal text-white tracking-wide text-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]">
+        <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center">
+          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-normal text-white tracking-wide drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]">
             Shilah Medicine
           </h1>
+          <p className="mt-2 text-sm sm:text-base md:text-lg text-white/95 font-light tracking-wider drop-shadow">
+            Kesehatan Anda, Prioritas Kami
+          </p>
         </div>
       </div>
 

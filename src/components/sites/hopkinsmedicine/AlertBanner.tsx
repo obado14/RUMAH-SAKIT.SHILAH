@@ -9,22 +9,20 @@ export function AlertBanner() {
         {/* Left: Message */}
         <div className="max-w-2xl">
           <h2 className="font-serif text-2xl sm:text-[28px] font-normal text-white mb-4">
-            Important Information for Patients with UnitedHealthcare
+            Informasi Penting Penjaminan Asuransi & BPJS Pasien
           </h2>
           <p className="text-[15px] sm:text-[16px] text-white/90 leading-relaxed font-light">
-            As of August 25, 2025, all providers and facilities that are part of
-            Shilah Medicine, EXCEPT FOR Shilah Children&apos;s
-            Hospital, are considered out of network by UnitedHealthcare.
+            Shilah Medicine berkomitmen memberikan kemudahan proses administrasi klaim bagi seluruh pasien pemegang BPJS Kesehatan dan asuransi rekanan. Ketahui rincian cakupan dan langkah verifikasi data sebelum menjalani perawatan.
           </p>
         </div>
 
         {/* Right: Button */}
         <div className="shrink-0">
           <Link
-            href="https://www.hopkinsmedicine.org/united-coverage"
+            href="/billing"
             className="inline-flex items-center space-x-2 px-6 py-3 border border-white text-white font-medium text-[15px] rounded hover:bg-white hover:text-[#002D72] transition-colors"
           >
-            <span>Learn more.</span>
+            <span>Pelajari selengkapnya</span>
             <ChevronRight className="w-4 h-4" />
           </Link>
         </div>
