@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { Header } from "@/components/sites/hopkinsmedicine/Header";
 import { Footer } from "@/components/sites/hopkinsmedicine/Footer";
 import { CookieBanner } from "@/components/sites/hopkinsmedicine/CookieBanner";
@@ -40,15 +41,31 @@ export default function BillingPage() {
 
       <main className="flex-1 w-full">
         {/* Hero Banner */}
-        <section className="w-full bg-[#002D72] text-white py-14 sm:py-20">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
-            <span className="inline-block px-3 py-1 rounded-full bg-white/10 text-white text-xs font-semibold tracking-wider uppercase mb-3 border border-white/20">
+        <section className="relative w-full bg-[#00205B] text-white py-14 sm:py-20 md:py-24 overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0">
+            <Image
+              src="/sites/hopkinsmedicine/images/billing_hero_bg.jpeg"
+              alt="Layanan Administrasi dan Pembayaran Pasien Shilah Medicine"
+              fill
+              priority
+              className="object-cover object-center"
+            />
+          </div>
+
+          {/* Elegant Translucent Blue Overlay */}
+          <div className="absolute inset-0 bg-[#002D72]/50" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#001D4A]/85 via-[#002D72]/35 to-black/40" />
+
+          {/* Foreground Content */}
+          <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
+            <span className="inline-block px-3.5 py-1.5 rounded-full bg-black/35 backdrop-blur-md text-white text-[11px] sm:text-xs font-semibold tracking-wider uppercase mb-3 sm:mb-4 border border-white/30 shadow-md">
               Layanan Administrasi & Pembayaran
             </span>
-            <h1 className="font-serif text-3xl sm:text-5xl font-normal mb-4">
+            <h1 className="font-serif text-2xl sm:text-4xl md:text-5xl font-normal mb-3 sm:mb-4 text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)] leading-tight">
               Pembayaran & Layanan Asuransi Kesehatan
             </h1>
-            <p className="text-base sm:text-lg text-white/90 font-light max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xs sm:text-base md:text-lg text-white font-normal max-w-2xl mx-auto leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.85)]">
               Kemudahan pembayaran tagihan medis Anda secara online, informasi kemitraan asuransi kesehatan, serta program transparansi biaya Shilah Medicine.
             </p>
           </div>
