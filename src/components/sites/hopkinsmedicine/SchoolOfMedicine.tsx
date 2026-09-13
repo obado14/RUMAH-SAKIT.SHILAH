@@ -20,7 +20,7 @@ export function SchoolOfMedicine() {
 
             <div className="flex flex-wrap items-center gap-3 sm:gap-4">
               <Link
-                href="/about"
+                href="/som"
                 className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-5 py-2.5 sm:px-6 sm:py-3 border border-[#111111] text-[#111111] font-medium text-xs sm:text-[15px] rounded-xl sm:rounded hover:bg-white transition-colors text-center"
               >
                 <span>Tentang Fakultas Kedokteran Shilah</span>
@@ -28,7 +28,7 @@ export function SchoolOfMedicine() {
               </Link>
 
               <Link
-                href="/som"
+                href="/som#programs"
                 className="w-full sm:w-auto inline-flex items-center justify-center space-x-1.5 text-[#0077C8] hover:underline font-medium text-xs sm:text-[15px] px-2 py-2 text-center"
               >
                 <span>Jelajahi program studi</span>

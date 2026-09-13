@@ -99,7 +99,7 @@ export default function SchoolOfMedicinePage() {
           </div>
 
           {/* Academic Programs Grid */}
-          <div className="pt-8 border-t border-gray-200">
+          <div id="programs" className="pt-8 border-t border-gray-200 scroll-mt-8">
             <div className="text-center max-w-2xl mx-auto mb-10">
               <span className="text-xs font-bold text-[#0077C8] uppercase tracking-wider">
                 Jenjang Studi Kedokteran & Pascasarjana
