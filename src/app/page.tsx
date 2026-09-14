@@ -14,7 +14,6 @@ import { RankingsSection } from "@/components/sites/hopkinsmedicine/RankingsSect
 import { PatientStoriesSection } from "@/components/sites/hopkinsmedicine/PatientStoriesSection";
 import { AboutShilahSection } from "@/components/sites/hopkinsmedicine/AboutShilahSection";
 import { AlertBanner } from "@/components/sites/hopkinsmedicine/AlertBanner";
-import { ResearchSavesLives } from "@/components/sites/hopkinsmedicine/ResearchSavesLives";
 import { NewsFeatures } from "@/components/sites/hopkinsmedicine/NewsFeatures";
 import { FurtherReading } from "@/components/sites/hopkinsmedicine/FurtherReading";
 import { SchoolOfMedicine } from "@/components/sites/hopkinsmedicine/SchoolOfMedicine";
@@ -72,8 +71,8 @@ export default function Home() {
         {/* 13. Insurance Notice Alert Banner (Preserved) */}
         <AlertBanner />
 
-        {/* 14. Research Saves Lives Framed Block (Preserved) */}
-        <ResearchSavesLives />
+        {/* 14. Consolidated Research & Clinical Innovation */}
+        <ResearchSpotlight />
 
         {/* 15. News and Features (Preserved) */}
         <NewsFeatures />
@@ -83,9 +82,6 @@ export default function Home() {
 
         {/* 17. School of Medicine Spotlight (Preserved) */}
         <SchoolOfMedicine />
-
-        {/* 18. Research at Shilah Spotlight (Preserved) */}
-        <ResearchSpotlight />
       </main>
 
       {/* Global Footer */}
