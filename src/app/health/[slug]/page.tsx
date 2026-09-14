@@ -178,6 +178,24 @@ export default async function HealthGuideDetailPage({ params }: PageProps) {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
+
+          {/* Medical Disclaimer */}
+          <div className="bg-gradient-to-r from-blue-50/90 via-slate-50 to-blue-50/90 border border-blue-200/80 rounded-3xl p-6 sm:p-8 flex items-start gap-4 shadow-xs">
+            <div className="w-10 h-10 rounded-xl bg-blue-100 text-[#002D72] flex items-center justify-center shrink-0 mt-0.5">
+              <ShieldCheck className="w-5 h-5 text-[#0077C8]" />
+            </div>
+            <div className="space-y-1.5">
+              <h4 className="font-serif font-bold text-sm sm:text-base text-[#00205B]">
+                Pemberitahuan Medis (Medical Disclaimer)
+              </h4>
+              <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
+                Informasi yang tersedia di halaman ini ditujukan untuk tujuan edukasi dan informasi umum dan tidak dimaksudkan sebagai pengganti konsultasi, diagnosis, atau perawatan dari tenaga medis profesional.
+              </p>
+              <p className="text-[11px] sm:text-xs text-gray-500">
+                Terakhir diperbarui: <strong>September 2026</strong> • Sumber telaah klinis Shilah Medicine.
+              </p>
+            </div>
+          </div>
         </article>
       </main>
 

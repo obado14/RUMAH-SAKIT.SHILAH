@@ -172,6 +172,14 @@ export function HealthGuideModal({ guide, onClose }: HealthGuideModalProps) {
               </p>
             </div>
           </div>
+
+          {/* Medical Disclaimer */}
+          <div className="p-3.5 rounded-xl bg-amber-50/70 border border-amber-200/80 flex items-start gap-3 text-xs text-amber-950">
+            <ShieldCheck className="w-4 h-4 text-amber-700 shrink-0 mt-0.5" />
+            <p className="leading-relaxed">
+              <strong>Pemberitahuan Medis:</strong> Informasi yang tersedia di halaman ini ditujukan untuk tujuan edukasi dan informasi umum dan tidak dimaksudkan sebagai pengganti konsultasi, diagnosis, atau perawatan dari tenaga medis profesional.
+            </p>
+          </div>
         </div>
 
         {/* Modal Bottom Action Bar */}
