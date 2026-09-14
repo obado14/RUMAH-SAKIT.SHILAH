@@ -105,6 +105,71 @@ export function Header() {
         </div>
       </div>
 
+      {/* Patient Primary Navigation Strip (Desktop & Tablet) */}
+      <nav className="hidden lg:block bg-white border-b border-gray-200">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between text-xs sm:text-[13px] font-semibold text-gray-700">
+          <div className="flex items-center space-x-1">
+            <Link
+              href="/doctors"
+              className="px-3 py-2.5 hover:text-[#0077C8] hover:bg-slate-50 transition-colors"
+            >
+              Find a Doctor
+            </Link>
+            <Link
+              href="/health"
+              className="px-3 py-2.5 hover:text-[#0077C8] hover:bg-slate-50 transition-colors"
+            >
+              Medical Services
+            </Link>
+            <Link
+              href="/appointments"
+              className="px-3 py-2.5 hover:text-[#0077C8] hover:bg-slate-50 transition-colors"
+            >
+              Book Appointment
+            </Link>
+            <Link
+              href="/locations"
+              className="px-3 py-2.5 hover:text-[#0077C8] hover:bg-slate-50 transition-colors"
+            >
+              Locations
+            </Link>
+            <Link
+              href="/patient-care"
+              className="px-3 py-2.5 hover:text-[#0077C8] hover:bg-slate-50 transition-colors"
+            >
+              Patient Care
+            </Link>
+            <Link
+              href="/about"
+              className="px-3 py-2.5 hover:text-[#0077C8] hover:bg-slate-50 transition-colors"
+            >
+              About
+            </Link>
+            <Link
+              href="/research"
+              className="px-3 py-2.5 hover:text-[#0077C8] hover:bg-slate-50 transition-colors"
+            >
+              Research
+            </Link>
+            <Link
+              href="/som"
+              className="px-3 py-2.5 hover:text-[#0077C8] hover:bg-slate-50 transition-colors"
+            >
+              Education (SOM)
+            </Link>
+          </div>
+
+          <div className="flex items-center space-x-3 text-xs">
+            <a
+              href="tel:021500911"
+              className="text-red-600 font-bold hover:underline flex items-center gap-1"
+            >
+              <span>IGD 24 Jam: (021) 500-911</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+
       {/* Menu Overlay Drawer */}
       {isMenuOpen && (
         <div className="fixed inset-x-0 top-[68px] sm:top-[82px] lg:top-[86px] bottom-0 z-40 bg-black/60 backdrop-blur-[2px] transition-opacity overflow-y-auto">
