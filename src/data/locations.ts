@@ -1,4 +1,4 @@
-﻿export interface HospitalLocation {
+export interface HospitalLocation {
   id: string;
   name: string;
   type: string;
@@ -10,6 +10,11 @@
   facilities: string[];
   mapsUrl: string;
   image: string;
+  coordinates: {
+    lat: number;
+    lng: number;
+  };
+  filterTags: string[];
 }
 
 export const hospitalLocations: HospitalLocation[] = [
@@ -29,8 +34,13 @@ export const hospitalLocations: HospitalLocation[] = [
       "MRI 3 Tesla, Dual-Source CT Scan 512 Slice, Cath Lab Modern",
       "Ruang Perawatan VVIP, VIP, Kelas 1, 2, 3, serta ICU/ICCU/NICU",
     ],
-    mapsUrl: "https://maps.google.com/?q=Jakarta+Selatan+Hospital",
+    mapsUrl: "https://maps.google.com/?q=Jl.+Shilah+Medika+No.+101,+Cilandak,+Jakarta+Selatan",
     image: "/sites/hopkinsmedicine/images/locations_hero_bg.jpeg",
+    coordinates: {
+      lat: -6.2915,
+      lng: 106.7972,
+    },
+    filterTags: ["Rumah Sakit", "Diagnostic Center"],
   },
   {
     id: "loc-02",
@@ -47,8 +57,13 @@ export const hospitalLocations: HospitalLocation[] = [
       "Persalinan Nyaman (Water Birth & Minimally Invasive Delivery)",
       "Vaksinasi & Imunisasi Anak Lengkap",
     ],
-    mapsUrl: "https://maps.google.com/?q=Jakarta+Children+Hospital",
+    mapsUrl: "https://maps.google.com/?q=Jl.+Shilah+Medika+No.+105,+Cilandak,+Jakarta+Selatan",
     image: "/sites/hopkinsmedicine/images/5_peds-usnews-25-26-640-336-3_jpg.png",
+    coordinates: {
+      lat: -6.2928,
+      lng: 106.7995,
+    },
+    filterTags: ["Rumah Sakit", "Children's & Maternal"],
   },
   {
     id: "loc-03",
@@ -65,8 +80,13 @@ export const hospitalLocations: HospitalLocation[] = [
       "Bedah Rawat Jalan Sehari (Day Surgery)",
       "Instalasi Farmasi & Laboratorium Cepat Selesai",
     ],
-    mapsUrl: "https://maps.google.com/?q=Thamrin+Jakarta+Clinic",
+    mapsUrl: "https://maps.google.com/?q=Sentra+Bisnis+Medika+Kav.+8,+Thamrin,+Jakarta+Pusat",
     image: "/sites/hopkinsmedicine/images/about_hero_bg.png",
+    coordinates: {
+      lat: -6.1934,
+      lng: 106.8231,
+    },
+    filterTags: ["Klinik", "Medical Check-Up"],
   },
   {
     id: "loc-04",
@@ -83,7 +103,12 @@ export const hospitalLocations: HospitalLocation[] = [
       "Laboratorium Darah Rutin & Radiologi X-Ray Digital",
       "Apotek & Layanan Pengantaran Obat",
     ],
-    mapsUrl: "https://maps.google.com/?q=BSD+City+Tangerang+Hospital",
+    mapsUrl: "https://maps.google.com/?q=Boulevard+Barat+No.+24,+BSD+City,+Tangerang",
     image: "/sites/hopkinsmedicine/images/6_us-news-hospital_jpg.png",
+    coordinates: {
+      lat: -6.3021,
+      lng: 106.6522,
+    },
+    filterTags: ["Klinik", "Diagnostic Center", "Medical Check-Up"],
   },
 ];
