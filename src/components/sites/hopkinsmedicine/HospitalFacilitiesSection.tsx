@@ -28,7 +28,7 @@ const facilitiesData: FacilityItem[] = [
     category: "Gawat Darurat & Kritis",
     desc: "Ruang rawat intensif bertekanan khusus dengan continuous hemodynamic monitoring 24 jam.",
     features: ["Rasio Perawat 1:1", "Ventilator Canggih", "Isolasi Hepa Filter"],
-    image: "/sites/hopkinsmedicine/images/hero_bg.jpg",
+    image: "/sites/hopkinsmedicine/images/facility_icu_nicu.jpeg",
   },
   {
     id: "fac-03",
@@ -36,7 +36,7 @@ const facilitiesData: FacilityItem[] = [
     category: "Kamar Bedah & Diagnostik",
     desc: "Suite kamar operasi modular dengan laminar airflow dan sistem laparoskopi robotik 4K.",
     features: ["Hybrid OR Suite", "Robotik Minimal Invasif", "Monitoring Real-Time"],
-    image: "/sites/hopkinsmedicine/images/som_hero_bg.jpeg",
+    image: "/sites/hopkinsmedicine/images/facility_operating_suites.jpeg",
   },
   {
     id: "fac-04",
@@ -52,7 +52,7 @@ const facilitiesData: FacilityItem[] = [
     category: "Kamar Bedah & Diagnostik",
     desc: "Peralatan pencitraan mutakhir mencakup MRI 3 Tesla, CT Scan 512 Slice, dan USG 4D Fetomaternal.",
     features: ["MRI 3 Tesla Silent", "CT Scan Jantung 512 Slice", "Dosis Radiasi Rendah"],
-    image: "/sites/hopkinsmedicine/images/clinical_trials_hero_bg.jpeg",
+    image: "/sites/hopkinsmedicine/images/facility_diagnostic_radiology.jpeg",
   },
   {
     id: "fac-06",
@@ -60,7 +60,7 @@ const facilitiesData: FacilityItem[] = [
     category: "Rawat Inap & Skrining",
     desc: "Sistem farmasi klinis terpadu dengan verifikasi apoteker ganda dan opsi antar obat ke rumah.",
     features: ["Buka 24 Jam Penuh", "Konseling Apoteker", "Layanan Antar Obat"],
-    image: "/sites/hopkinsmedicine/images/billing_hero_bg.jpeg",
+    image: "/sites/hopkinsmedicine/images/facility_pharmacy.jpeg",
   },
   {
     id: "fac-07",
@@ -68,7 +68,7 @@ const facilitiesData: FacilityItem[] = [
     category: "Rawat Inap & Skrining",
     desc: "Kamar rawat inap dengan smart bed elektrik, ruang keluarga luas, dan nutrisi khusus pasien.",
     features: ["Kamar VVIP & Suite", "Sofa Bed Keluarga", "Nutrisi Terkurasi"],
-    image: "/sites/hopkinsmedicine/images/about_hero_bg.png",
+    image: "/sites/hopkinsmedicine/images/facility_inpatient_suites.jpeg",
   },
   {
     id: "fac-08",
