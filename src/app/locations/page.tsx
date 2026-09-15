@@ -27,6 +27,8 @@ import {
   AlertCircle,
   Building,
   HeartPulse,
+  Maximize2,
+  X,
 } from "lucide-react";
 
 const filterCategories = [
@@ -94,6 +96,7 @@ export default function LocationsPage() {
   const [userCoords, setUserCoords] = useState<{ lat: number; lng: number } | null>(null);
   const [geoStatus, setGeoStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [geoMessage, setGeoMessage] = useState<string>("");
+  const [previewImage, setPreviewImage] = useState<{ src: string; title: string; city: string } | null>(null);
 
   // Filter facilities
   const filteredLocations = useMemo(() => {
@@ -479,23 +482,54 @@ export default function LocationsPage() {
                     }`}
                   >
                     <div className="grid grid-cols-1 lg:grid-cols-12">
-                      {/* Facility Photo Thumbnail - Requirement 5 */}
-                      <div className="lg:col-span-4 relative h-[210px] sm:h-[240px] lg:h-full bg-slate-100 overflow-hidden">
-                        <Image
-                          src={loc.image}
-                          alt={loc.name}
-                          fill
-                          className="object-cover"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60" />
-                        <div className="absolute top-3.5 left-3.5">
-                          <span className="inline-block text-[11px] font-semibold bg-white/95 text-[#00205B] px-3 py-1 rounded-full shadow-2xs backdrop-blur-xs">
+                      {/* Facility Photo Container - Dual Layer Uncropped Display */}
+                      <div
+                        className="lg:col-span-5 relative min-h-[260px] sm:min-h-[300px] lg:min-h-full bg-slate-900 overflow-hidden flex items-center justify-center group cursor-pointer"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setPreviewImage({ src: loc.image, title: loc.name, city: loc.city });
+                        }}
+                      >
+                        {/* Ambient blurred backdrop so the container is richly filled with image tones */}
+                        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                          <Image
+                            src={loc.image}
+                            alt=""
+                            fill
+                            className="object-cover blur-xl scale-125 opacity-35 saturate-150"
+                            aria-hidden="true"
+                          />
+                          <div className="absolute inset-0 bg-slate-950/20" />
+                        </div>
+
+                        {/* Uncropped sharp foreground image */}
+                        <div className="relative w-full h-full min-h-[260px] sm:min-h-[300px] lg:min-h-[360px] p-3 sm:p-4 flex items-center justify-center">
+                          <Image
+                            src={loc.image}
+                            alt={loc.name}
+                            fill
+                            className="object-contain drop-shadow-md transition-transform duration-500 group-hover:scale-[1.02]"
+                            sizes="(max-width: 1024px) 100vw, 42vw"
+                          />
+                        </div>
+
+                        {/* City badge */}
+                        <div className="absolute top-3.5 left-3.5 z-10">
+                          <span className="inline-block text-[11px] font-semibold bg-white/95 text-[#00205B] px-3 py-1 rounded-full shadow-md backdrop-blur-xs border border-white/40">
                             {loc.city}
                           </span>
                         </div>
+
+                        {/* Zoom button badge */}
+                        <div className="absolute bottom-3 right-3 z-10 opacity-90 sm:opacity-0 group-hover:opacity-100 transition-opacity bg-black/60 hover:bg-black/80 backdrop-blur-md text-white text-[11px] font-medium px-2.5 py-1 rounded-lg flex items-center gap-1.5 shadow-md">
+                          <Maximize2 className="w-3.5 h-3.5 text-[#0077C8]" />
+                          <span>Perbesar</span>
+                        </div>
+
+                        {/* Distance badge */}
                         {distanceVal !== undefined && (
-                          <div className="absolute bottom-3 left-3.5">
-                            <span className="text-[11px] font-bold text-white bg-emerald-600/90 px-2.5 py-1 rounded-full shadow-xs">
+                          <div className="absolute bottom-3 left-3.5 z-10">
+                            <span className="text-[11px] font-bold text-white bg-emerald-600/95 px-2.5 py-1 rounded-full shadow-md backdrop-blur-xs">
                               ~{distanceVal} km dari lokasi Anda
                             </span>
                           </div>
@@ -503,7 +537,7 @@ export default function LocationsPage() {
                       </div>
 
                       {/* Card Content with strict hierarchy - Requirement 4 */}
-                      <div className="lg:col-span-8 p-6 sm:p-8 flex flex-col justify-between">
+                      <div className="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between">
                         <div>
                           {/* 1. Nama & 2. Jenis fasilitas */}
                           <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3 pb-5 border-b border-gray-100">
@@ -659,6 +693,48 @@ export default function LocationsPage() {
           </div>
         </section>
       </main>
+
+      {/* Photo Lightbox Modal */}
+      {previewImage && (
+        <div
+          className="fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4"
+          onClick={() => setPreviewImage(null)}
+        >
+          <div
+            className="relative max-w-4xl w-full max-h-[90vh] bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-white/10 flex flex-col"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between px-5 py-3.5 border-b border-white/10 bg-slate-950/70">
+              <div>
+                <span className="text-[11px] font-semibold text-[#0077C8] uppercase tracking-wider block">
+                  {previewImage.city}
+                </span>
+                <h4 className="text-white font-serif font-bold text-base sm:text-lg truncate max-w-xl">
+                  {previewImage.title}
+                </h4>
+              </div>
+              <button
+                type="button"
+                onClick={() => setPreviewImage(null)}
+                className="p-2 text-white/70 hover:text-white hover:bg-white/10 rounded-full transition-colors cursor-pointer"
+                aria-label="Tutup"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="relative w-full h-[60vh] sm:h-[72vh] bg-slate-950 flex items-center justify-center p-4">
+              <Image
+                src={previewImage.src}
+                alt={previewImage.title}
+                fill
+                className="object-contain"
+                sizes="90vw"
+                priority
+              />
+            </div>
+          </div>
+        </div>
+      )}
 
       <Footer />
       <CookieBanner />

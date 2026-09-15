@@ -81,7 +81,7 @@ export const hospitalLocations: HospitalLocation[] = [
       "Instalasi Farmasi & Laboratorium Cepat Selesai",
     ],
     mapsUrl: "https://maps.google.com/?q=Sentra+Bisnis+Medika+Kav.+8,+Thamrin,+Jakarta+Pusat",
-    image: "/sites/hopkinsmedicine/images/about_hero_bg.png",
+    image: "/sites/hopkinsmedicine/images/location_specialist_clinic.jpeg",
     coordinates: {
       lat: -6.1934,
       lng: 106.8231,
@@ -104,7 +104,7 @@ export const hospitalLocations: HospitalLocation[] = [
       "Apotek & Layanan Pengantaran Obat",
     ],
     mapsUrl: "https://maps.google.com/?q=Boulevard+Barat+No.+24,+BSD+City,+Tangerang",
-    image: "/sites/hopkinsmedicine/images/6_us-news-hospital_jpg.png",
+    image: "/sites/hopkinsmedicine/images/location_diagnostic_hub.jpeg",
     coordinates: {
       lat: -6.3021,
       lng: 106.6522,
